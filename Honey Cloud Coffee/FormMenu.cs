@@ -33,5 +33,25 @@ namespace Honey_Cloud_Coffee
 
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SinCafe sincafe = new SinCafe();
+
+            sincafe.Show();
+
+            this.Hide();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MenuTes MTes = new MenuTes();
+
+            MTes.Show();
+
+            this.Hide();
+
+        }
     }
 }

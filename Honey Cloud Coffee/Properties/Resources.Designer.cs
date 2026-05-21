@@ -83,6 +83,46 @@ namespace Honey_Cloud_Coffee.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Honey_Moon_Coffee__1__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Honey_Moon_Coffee__1_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Honey_Moon_Coffee__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Honey Moon Coffee (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Honey_Moon_Coffee__3_ {
+            get {
+                object obj = ResourceManager.GetObject("Honey Moon Coffee (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Honey_Moon_Coffee__4_ {
+            get {
+                object obj = ResourceManager.GetObject("Honey Moon Coffee (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Honey_Moon_Coffee1 {
             get {
                 object obj = ResourceManager.GetObject("Honey Moon Coffee1", resourceCulture);
@@ -96,6 +136,26 @@ namespace Honey_Cloud_Coffee.Properties {
         internal static System.Drawing.Bitmap Red_and_Brown_Hand_Drawn_Illustrated_Coffee_Presentation {
             get {
                 object obj = ResourceManager.GetObject("Red and Brown Hand Drawn Illustrated Coffee Presentation", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2026_05_21_003658 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2026-05-21 003658", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2026_05_21_004113 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2026-05-21 004113", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

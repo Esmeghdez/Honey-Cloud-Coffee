@@ -70,8 +70,20 @@
     <Compile Include="FormMenu.Designer.cs">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuTes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuTes.Designer.cs">
+      <DependentUpon>MenuTes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SinCafe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SinCafe.Designer.cs">
+      <DependentUpon>SinCafe.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="ConCafe.resx">
       <DependentUpon>ConCafe.cs</DependentUpon>
     </EmbeddedResource>
@@ -80,6 +92,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuTes.resx">
+      <DependentUpon>MenuTes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -91,6 +106,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SinCafe.resx">
+      <DependentUpon>SinCafe.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -116,6 +134,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Honey Moon Coffee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Honey_Moon_Coffee__1_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2026-05-21 003658.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2026-05-21 004113.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Honey Moon Coffee %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Honey Moon Coffee %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Honey Moon Coffee %284%29.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
