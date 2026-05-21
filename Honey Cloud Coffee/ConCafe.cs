@@ -24,5 +24,15 @@ namespace Honey_Cloud_Coffee
 
             this.Hide();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            ExtrasLatte ELatte = new ExtrasLatte();
+
+            ELatte.Show();
+
+            this.Hide();
+
+        }
     }
 }

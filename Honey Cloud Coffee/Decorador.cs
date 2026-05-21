@@ -10,11 +10,11 @@ namespace Honey_Cloud_Coffee
     // DECORATOR BASE
 
 
-    public abstract class Extras : Bebida
+    public abstract class LatteExtras : Bebida
     {
         protected Bebida bebida;
 
-        public Extras(Bebida bebida)
+        public LatteExtras(Bebida bebida)
         {
             this.bebida = bebida;
         }
@@ -24,7 +24,7 @@ namespace Honey_Cloud_Coffee
     // CANELA
 
 
-    public class Canela : Extras
+    public class Canela : LatteExtras
     {
         public Canela(Bebida bebida) : base(bebida)
         {
@@ -45,7 +45,7 @@ namespace Honey_Cloud_Coffee
     // LECHE ENTERA
 
 
-    public class LecheEntera : Extras
+    public class LecheEntera : LatteExtras
     {
         public LecheEntera(Bebida bebida) : base(bebida)
         {
@@ -66,7 +66,7 @@ namespace Honey_Cloud_Coffee
     // LECHE DESLACTOSADA
 
 
-    public class LecheDeslactosada : Extras
+    public class LecheDeslactosada : LatteExtras
     {
         public LecheDeslactosada(Bebida bebida) : base(bebida)
         {
@@ -87,7 +87,7 @@ namespace Honey_Cloud_Coffee
     // LECHE DE ALMENDRAS
 
 
-    public class LecheAlmendras : Extras
+    public class LecheAlmendras : LatteExtras
     {
         public LecheAlmendras(Bebida bebida) : base(bebida)
         {
@@ -108,7 +108,7 @@ namespace Honey_Cloud_Coffee
     // AZÚCAR
 
 
-    public class Azucar : Extras
+    public class Azucar : LatteExtras
     {
         public Azucar(Bebida bebida) : base(bebida)
         {
@@ -128,7 +128,7 @@ namespace Honey_Cloud_Coffee
     // AZÚCAR MASCABADO
 
 
-    public class AzucarMascabado : Extras
+    public class AzucarMascabado : LatteExtras
     {
         public AzucarMascabado(Bebida bebida) : base(bebida)
         {
@@ -149,7 +149,7 @@ namespace Honey_Cloud_Coffee
     // SPLENDA
 
 
-    public class Splenda : Extras
+    public class Splenda : LatteExtras
     {
         public Splenda(Bebida bebida) : base(bebida)
         {
@@ -170,7 +170,7 @@ namespace Honey_Cloud_Coffee
     // CALIENTE
 
 
-    public class Caliente : Extras
+    public class Caliente : LatteExtras
     {
         public Caliente(Bebida bebida) : base(bebida)
         {
@@ -191,7 +191,7 @@ namespace Honey_Cloud_Coffee
     // FRÍA
 
 
-    public class Fria : Extras
+    public class Fria : LatteExtras
     {
         public Fria(Bebida bebida) : base(bebida)
         {

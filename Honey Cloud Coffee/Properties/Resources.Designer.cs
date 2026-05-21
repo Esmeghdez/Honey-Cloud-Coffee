@@ -133,6 +133,16 @@ namespace Honey_Cloud_Coffee.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Honey_Moon_Coffee__6_ {
+            get {
+                object obj = ResourceManager.GetObject("Honey Moon Coffee (6)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Honey_Moon_Coffee1 {
             get {
                 object obj = ResourceManager.GetObject("Honey Moon Coffee1", resourceCulture);

@@ -57,6 +57,12 @@
       <DependentUpon>ConCafe.cs</DependentUpon>
     </Compile>
     <Compile Include="Decorador.cs" />
+    <Compile Include="ExtrasLatte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtrasLatte.Designer.cs">
+      <DependentUpon>ExtrasLatte.cs</DependentUpon>
+    </Compile>
     <Compile Include="Fabrica Abstracta.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -86,6 +92,9 @@
     </Compile>
     <EmbeddedResource Include="ConCafe.resx">
       <DependentUpon>ConCafe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtrasLatte.resx">
+      <DependentUpon>ExtrasLatte.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -155,6 +164,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Honey Moon Coffee %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Honey Moon Coffee %286%29.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

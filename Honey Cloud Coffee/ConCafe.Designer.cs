@@ -103,9 +103,9 @@
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
             this.label4.Location = new System.Drawing.Point(99, 482);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(331, 29);
+            this.label4.Size = new System.Drawing.Size(321, 29);
             this.label4.TabIndex = 10;
-            this.label4.Text = "Dirty Chai........................$70";
+            this.label4.Text = "Dirty Chai........................70";
             // 
             // pictureBox5
             // 
@@ -146,6 +146,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 15;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
