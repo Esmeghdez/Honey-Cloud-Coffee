@@ -153,5 +153,8 @@
   <ItemGroup>
     <None Include="Resources\Honey Moon Coffee %284%29.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Honey Moon Coffee %285%29.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
