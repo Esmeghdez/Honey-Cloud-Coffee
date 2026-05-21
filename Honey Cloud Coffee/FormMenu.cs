@@ -22,6 +22,7 @@ namespace Honey_Cloud_Coffee
         {
             Form1 Inicio = new Form1();
             Inicio.Show();
+            //lol
 
             this.Hide();
         }
