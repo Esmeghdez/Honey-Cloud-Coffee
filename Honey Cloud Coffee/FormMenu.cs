@@ -22,7 +22,14 @@ namespace Honey_Cloud_Coffee
         {
             Form1 Inicio = new Form1();
             Inicio.Show();
-            //lol
+            this.Hide();
+        }
+
+        private void btnInicio_Click(object sender, EventArgs e)
+        {
+            ConCafe cafe = new ConCafe();
+
+            cafe.Show();
 
             this.Hide();
         }
