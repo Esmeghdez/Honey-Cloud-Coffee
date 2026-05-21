@@ -99,5 +99,8 @@
   <ItemGroup>
     <None Include="Resources\Red and Brown Hand Drawn Illustrated Coffee Presentation.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Honey Moon Coffee.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
