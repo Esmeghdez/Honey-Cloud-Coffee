@@ -93,6 +93,66 @@ namespace Honey_Cloud_Coffee.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Honey_Moon_Coffee__10_ {
+            get {
+                object obj = ResourceManager.GetObject("Honey Moon Coffee (10)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Honey_Moon_Coffee__11_ {
+            get {
+                object obj = ResourceManager.GetObject("Honey Moon Coffee (11)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Honey_Moon_Coffee__12_ {
+            get {
+                object obj = ResourceManager.GetObject("Honey Moon Coffee (12)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Honey_Moon_Coffee__13_ {
+            get {
+                object obj = ResourceManager.GetObject("Honey Moon Coffee (13)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Honey_Moon_Coffee__14_ {
+            get {
+                object obj = ResourceManager.GetObject("Honey Moon Coffee (14)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Honey_Moon_Coffee__15_ {
+            get {
+                object obj = ResourceManager.GetObject("Honey Moon Coffee (15)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Honey_Moon_Coffee__2_ {
             get {
                 object obj = ResourceManager.GetObject("Honey Moon Coffee (2)", resourceCulture);

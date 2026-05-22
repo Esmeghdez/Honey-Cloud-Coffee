@@ -10,27 +10,27 @@ using System.Windows.Forms;
 
 namespace Honey_Cloud_Coffee
 {
-    public partial class MenuTes : Form
+    public partial class ManzanillaExtras : Form
     {
-        public MenuTes()
+        public ManzanillaExtras()
         {
             InitializeComponent();
         }
 
         private void btnVolver_Click(object sender, EventArgs e)
         {
-            FormMenu menu = new FormMenu();
+            MenuTes MTes = new MenuTes();
 
-            menu.Show();
+            MTes.Show();
 
             this.Hide();
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            FruRoExtra fruRoExtra = new FruRoExtra();   
+            FormMenu menu = new FormMenu();
 
-            fruRoExtra.Show();
+            menu.Show();
 
             this.Hide();
         }

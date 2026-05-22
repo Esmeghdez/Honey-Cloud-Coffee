@@ -1,6 +1,6 @@
 ﻿namespace Honey_Cloud_Coffee
 {
-    partial class DirtyChaiExtras
+    partial class FruRoExtra
     {
         /// <summary>
         /// Required designer variable.
@@ -28,18 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DirtyChaiExtras));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FruRoExtra));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -52,7 +42,16 @@
             this.btnVolver = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
@@ -63,17 +62,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Honey_Cloud_Coffee.Properties.Resources.Honey_Moon_Coffee__9_;
-            this.pictureBox1.Location = new System.Drawing.Point(-1, -21);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1164, 744);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
             // 
             // panel1
             // 
@@ -96,100 +86,10 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(477, 248);
+            this.panel1.Location = new System.Drawing.Point(452, 245);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(431, 392);
-            this.panel1.TabIndex = 14;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox10.Location = new System.Drawing.Point(375, 351);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(43, 38);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 27;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox9.Location = new System.Drawing.Point(375, 308);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(43, 38);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 25;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox8.Location = new System.Drawing.Point(375, 264);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(43, 38);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 24;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox7.Location = new System.Drawing.Point(375, 220);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(43, 38);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 23;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox6.Location = new System.Drawing.Point(375, 176);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(43, 38);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 22;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox5.Location = new System.Drawing.Point(375, 132);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(43, 38);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 21;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox4.Location = new System.Drawing.Point(375, 90);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(43, 38);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 20;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox3.Location = new System.Drawing.Point(375, 48);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(43, 38);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 19;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox2.Location = new System.Drawing.Point(375, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(43, 38);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 18;
-            this.pictureBox2.TabStop = false;
+            this.panel1.TabIndex = 17;
             // 
             // label9
             // 
@@ -304,10 +204,10 @@
             this.btnVolver.BackColor = System.Drawing.Color.Linen;
             this.btnVolver.Font = new System.Drawing.Font("Constantia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVolver.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
-            this.btnVolver.Location = new System.Drawing.Point(319, 600);
+            this.btnVolver.Location = new System.Drawing.Point(304, 597);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(110, 43);
-            this.btnVolver.TabIndex = 23;
+            this.btnVolver.TabIndex = 28;
             this.btnVolver.Text = "Volver";
             this.btnVolver.UseVisualStyleBackColor = false;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
@@ -317,10 +217,10 @@
             this.button2.BackColor = System.Drawing.Color.Linen;
             this.button2.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
-            this.button2.Location = new System.Drawing.Point(951, 602);
+            this.button2.Location = new System.Drawing.Point(938, 599);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(199, 43);
-            this.button2.TabIndex = 31;
+            this.button2.TabIndex = 34;
             this.button2.Text = "Terminar pedido";
             this.button2.UseVisualStyleBackColor = false;
             // 
@@ -329,15 +229,115 @@
             this.button1.BackColor = System.Drawing.Color.Linen;
             this.button1.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
-            this.button1.Location = new System.Drawing.Point(951, 551);
+            this.button1.Location = new System.Drawing.Point(938, 550);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(199, 43);
-            this.button1.TabIndex = 32;
+            this.button1.TabIndex = 35;
             this.button1.Text = "Agregar Mas";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // DirtyChaiExtras
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.pictureBox10.Location = new System.Drawing.Point(375, 351);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(43, 38);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 27;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.pictureBox9.Location = new System.Drawing.Point(375, 308);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(43, 38);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 25;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.pictureBox8.Location = new System.Drawing.Point(375, 264);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(43, 38);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 24;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.pictureBox7.Location = new System.Drawing.Point(375, 220);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(43, 38);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 23;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.pictureBox6.Location = new System.Drawing.Point(375, 176);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(43, 38);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 22;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.pictureBox5.Location = new System.Drawing.Point(375, 132);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(43, 38);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 21;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.pictureBox4.Location = new System.Drawing.Point(375, 90);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(43, 38);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 20;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.pictureBox3.Location = new System.Drawing.Point(375, 48);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(43, 38);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 19;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.pictureBox2.Location = new System.Drawing.Point(375, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(43, 38);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 18;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Honey_Cloud_Coffee.Properties.Resources.Honey_Moon_Coffee__14_;
+            this.pictureBox1.Location = new System.Drawing.Point(-1, -21);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1164, 744);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
+            // FruRoExtra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -348,10 +348,9 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "DirtyChaiExtras";
+            this.Name = "FruRoExtra";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Dirty Chai";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Text = "Frutos Rojos";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
@@ -363,6 +362,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

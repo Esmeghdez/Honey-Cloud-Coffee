@@ -1,6 +1,6 @@
 ﻿namespace Honey_Cloud_Coffee
 {
-    partial class DirtyChaiExtras
+    partial class ManzanillaExtras
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DirtyChaiExtras));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManzanillaExtras));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
@@ -67,12 +67,12 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Honey_Cloud_Coffee.Properties.Resources.Honey_Moon_Coffee__9_;
+            this.pictureBox1.Image = global::Honey_Cloud_Coffee.Properties.Resources.Honey_Moon_Coffee__15_;
             this.pictureBox1.Location = new System.Drawing.Point(-1, -21);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1164, 744);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
             // panel1
@@ -96,10 +96,10 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(477, 248);
+            this.panel1.Location = new System.Drawing.Point(455, 246);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(431, 392);
-            this.panel1.TabIndex = 14;
+            this.panel1.TabIndex = 18;
             // 
             // pictureBox10
             // 
@@ -304,10 +304,10 @@
             this.btnVolver.BackColor = System.Drawing.Color.Linen;
             this.btnVolver.Font = new System.Drawing.Font("Constantia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVolver.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
-            this.btnVolver.Location = new System.Drawing.Point(319, 600);
+            this.btnVolver.Location = new System.Drawing.Point(302, 598);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(110, 43);
-            this.btnVolver.TabIndex = 23;
+            this.btnVolver.TabIndex = 29;
             this.btnVolver.Text = "Volver";
             this.btnVolver.UseVisualStyleBackColor = false;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
@@ -317,10 +317,10 @@
             this.button2.BackColor = System.Drawing.Color.Linen;
             this.button2.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
-            this.button2.Location = new System.Drawing.Point(951, 602);
+            this.button2.Location = new System.Drawing.Point(942, 600);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(199, 43);
-            this.button2.TabIndex = 31;
+            this.button2.TabIndex = 35;
             this.button2.Text = "Terminar pedido";
             this.button2.UseVisualStyleBackColor = false;
             // 
@@ -329,15 +329,15 @@
             this.button1.BackColor = System.Drawing.Color.Linen;
             this.button1.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
-            this.button1.Location = new System.Drawing.Point(951, 551);
+            this.button1.Location = new System.Drawing.Point(942, 549);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(199, 43);
-            this.button1.TabIndex = 32;
+            this.button1.TabIndex = 36;
             this.button1.Text = "Agregar Mas";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // DirtyChaiExtras
+            // ManzanillaExtras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -348,9 +348,9 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "DirtyChaiExtras";
+            this.Name = "ManzanillaExtras";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Dirty Chai";
+            this.Text = "ManzanillaExtras";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
