@@ -50,6 +50,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CapuccinoExtras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapuccinoExtras.Designer.cs">
+      <DependentUpon>CapuccinoExtras.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConCafe.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +63,12 @@
       <DependentUpon>ConCafe.cs</DependentUpon>
     </Compile>
     <Compile Include="Decorador.cs" />
+    <Compile Include="DirtyChaiExtras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DirtyChaiExtras.Designer.cs">
+      <DependentUpon>DirtyChaiExtras.cs</DependentUpon>
+    </Compile>
     <Compile Include="ExtrasLatte.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +94,12 @@
     <Compile Include="MenuTes.Designer.cs">
       <DependentUpon>MenuTes.cs</DependentUpon>
     </Compile>
+    <Compile Include="MokaExtras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MokaExtras.Designer.cs">
+      <DependentUpon>MokaExtras.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SinCafe.cs">
@@ -90,8 +108,14 @@
     <Compile Include="SinCafe.Designer.cs">
       <DependentUpon>SinCafe.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CapuccinoExtras.resx">
+      <DependentUpon>CapuccinoExtras.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ConCafe.resx">
       <DependentUpon>ConCafe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DirtyChaiExtras.resx">
+      <DependentUpon>DirtyChaiExtras.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ExtrasLatte.resx">
       <DependentUpon>ExtrasLatte.cs</DependentUpon>
@@ -104,6 +128,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MenuTes.resx">
       <DependentUpon>MenuTes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MokaExtras.resx">
+      <DependentUpon>MokaExtras.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -167,6 +194,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Honey Moon Coffee %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Honey Moon Coffee %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Honey Moon Coffee %288%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Honey Moon Coffee %289%29.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
