@@ -34,5 +34,14 @@ namespace Honey_Cloud_Coffee
 
             this.Hide();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            ManzanillaExtras ManExtras = new ManzanillaExtras();
+
+            ManExtras.Show();
+
+            this.Hide();
+        }
     }
 }
