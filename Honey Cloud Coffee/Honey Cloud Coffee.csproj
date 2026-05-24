@@ -258,5 +258,8 @@
   <ItemGroup>
     <None Include="Resources\Honey Moon Coffee %2815%29.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2026-05-23 155302.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
