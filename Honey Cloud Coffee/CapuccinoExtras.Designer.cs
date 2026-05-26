@@ -41,7 +41,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnVolver = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnPedidocap = new System.Windows.Forms.Button();
             this.lblp1 = new System.Windows.Forms.Label();
             this.lblp2 = new System.Windows.Forms.Label();
             this.lblp3 = new System.Windows.Forms.Label();
@@ -169,9 +169,9 @@
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
             this.label7.Location = new System.Drawing.Point(8, 182);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(217, 24);
+            this.label7.Size = new System.Drawing.Size(247, 24);
             this.label7.TabIndex = 15;
-            this.label7.Text = "Canela....................$0";
+            this.label7.Text = "Canela.........................$0";
             // 
             // label6
             // 
@@ -193,9 +193,9 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
             this.label5.Location = new System.Drawing.Point(8, 282);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(271, 24);
+            this.label5.Size = new System.Drawing.Size(259, 24);
             this.label5.TabIndex = 13;
-            this.label5.Text = "Leche de Almendras......$20";
+            this.label5.Text = "Leche de Almendras....$20";
             // 
             // label4
             // 
@@ -205,9 +205,9 @@
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
             this.label4.Location = new System.Drawing.Point(8, 252);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(260, 24);
+            this.label4.Size = new System.Drawing.Size(248, 24);
             this.label4.TabIndex = 12;
-            this.label4.Text = "Leche Deslactosada......$15";
+            this.label4.Text = "Leche Deslactosada....$15";
             // 
             // label3
             // 
@@ -217,9 +217,9 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
             this.label3.Location = new System.Drawing.Point(8, 217);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(265, 24);
+            this.label3.Size = new System.Drawing.Size(247, 24);
             this.label3.TabIndex = 11;
-            this.label3.Text = "Leche Entera..................$0";
+            this.label3.Text = "Leche Entera...............$0";
             // 
             // label1
             // 
@@ -273,19 +273,19 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnPedidocap
             // 
-            this.button2.BackColor = System.Drawing.Color.Linen;
-            this.button2.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
-            this.button2.Location = new System.Drawing.Point(845, 482);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(177, 34);
-            this.button2.TabIndex = 29;
-            this.button2.Text = "Terminar pedido";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnPedidocap.BackColor = System.Drawing.Color.Linen;
+            this.btnPedidocap.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPedidocap.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
+            this.btnPedidocap.Location = new System.Drawing.Point(845, 482);
+            this.btnPedidocap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnPedidocap.Name = "btnPedidocap";
+            this.btnPedidocap.Size = new System.Drawing.Size(177, 34);
+            this.btnPedidocap.TabIndex = 29;
+            this.btnPedidocap.Text = "Terminar pedido";
+            this.btnPedidocap.UseVisualStyleBackColor = false;
+            this.btnPedidocap.Click += new System.EventHandler(this.button2_Click);
             // 
             // lblp1
             // 
@@ -378,6 +378,7 @@
             this.calientecap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.calientecap.TabIndex = 28;
             this.calientecap.TabStop = false;
+            this.calientecap.Click += new System.EventHandler(this.calientecap_Click);
             // 
             // capalm
             // 
@@ -389,6 +390,7 @@
             this.capalm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.capalm.TabIndex = 27;
             this.capalm.TabStop = false;
+            this.capalm.Click += new System.EventHandler(this.capalm_Click);
             // 
             // capdes
             // 
@@ -400,6 +402,7 @@
             this.capdes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.capdes.TabIndex = 25;
             this.capdes.TabStop = false;
+            this.capdes.Click += new System.EventHandler(this.capdes_Click);
             // 
             // capentera
             // 
@@ -411,6 +414,7 @@
             this.capentera.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.capentera.TabIndex = 24;
             this.capentera.TabStop = false;
+            this.capentera.Click += new System.EventHandler(this.capentera_Click);
             // 
             // capcanela
             // 
@@ -422,6 +426,7 @@
             this.capcanela.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.capcanela.TabIndex = 23;
             this.capcanela.TabStop = false;
+            this.capcanela.Click += new System.EventHandler(this.capcanela_Click);
             // 
             // capsplenda
             // 
@@ -433,6 +438,7 @@
             this.capsplenda.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.capsplenda.TabIndex = 22;
             this.capsplenda.TabStop = false;
+            this.capsplenda.Click += new System.EventHandler(this.capsplenda_Click);
             // 
             // azucarcapm
             // 
@@ -444,6 +450,7 @@
             this.azucarcapm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.azucarcapm.TabIndex = 21;
             this.azucarcapm.TabStop = false;
+            this.azucarcapm.Click += new System.EventHandler(this.azucarcapm_Click);
             // 
             // capazucar
             // 
@@ -455,6 +462,7 @@
             this.capazucar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.capazucar.TabIndex = 20;
             this.capazucar.TabStop = false;
+            this.capazucar.Click += new System.EventHandler(this.capazucar_Click);
             // 
             // capfrio
             // 
@@ -466,6 +474,7 @@
             this.capfrio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.capfrio.TabIndex = 19;
             this.capfrio.TabStop = false;
+            this.capfrio.Click += new System.EventHandler(this.capfrio_Click);
             // 
             // capcaliente
             // 
@@ -477,6 +486,7 @@
             this.capcaliente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.capcaliente.TabIndex = 18;
             this.capcaliente.TabStop = false;
+            this.capcaliente.Click += new System.EventHandler(this.capcaliente_Click);
             // 
             // pictureBox1
             // 
@@ -499,6 +509,7 @@
             this.friocap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.friocap.TabIndex = 46;
             this.friocap.TabStop = false;
+            this.friocap.Click += new System.EventHandler(this.friocap_Click);
             // 
             // azucarcap
             // 
@@ -510,6 +521,7 @@
             this.azucarcap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.azucarcap.TabIndex = 47;
             this.azucarcap.TabStop = false;
+            this.azucarcap.Click += new System.EventHandler(this.azucarcap_Click);
             // 
             // azucarmcap
             // 
@@ -521,6 +533,7 @@
             this.azucarmcap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.azucarmcap.TabIndex = 48;
             this.azucarmcap.TabStop = false;
+            this.azucarmcap.Click += new System.EventHandler(this.azucarmcap_Click);
             // 
             // splendacap
             // 
@@ -532,6 +545,7 @@
             this.splendacap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.splendacap.TabIndex = 49;
             this.splendacap.TabStop = false;
+            this.splendacap.Click += new System.EventHandler(this.splendacap_Click);
             // 
             // canelacap
             // 
@@ -543,6 +557,7 @@
             this.canelacap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.canelacap.TabIndex = 50;
             this.canelacap.TabStop = false;
+            this.canelacap.Click += new System.EventHandler(this.canelacap_Click);
             // 
             // enteracap
             // 
@@ -554,6 +569,7 @@
             this.enteracap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.enteracap.TabIndex = 51;
             this.enteracap.TabStop = false;
+            this.enteracap.Click += new System.EventHandler(this.enteracap_Click);
             // 
             // deslcap
             // 
@@ -565,6 +581,7 @@
             this.deslcap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.deslcap.TabIndex = 52;
             this.deslcap.TabStop = false;
+            this.deslcap.Click += new System.EventHandler(this.deslcap_Click);
             // 
             // almcap
             // 
@@ -576,13 +593,14 @@
             this.almcap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.almcap.TabIndex = 53;
             this.almcap.TabStop = false;
+            this.almcap.Click += new System.EventHandler(this.almcap_Click);
             // 
             // CapuccinoExtras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1033, 562);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnPedidocap);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.panel1);
@@ -641,7 +659,7 @@
         private System.Windows.Forms.PictureBox capalm;
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnPedidocap;
         private System.Windows.Forms.Label lblp1;
         private System.Windows.Forms.PictureBox calientecap;
         private System.Windows.Forms.Label lblp9;

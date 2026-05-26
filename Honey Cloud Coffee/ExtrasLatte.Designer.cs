@@ -32,7 +32,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnPedidolatte = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lechedealm = new System.Windows.Forms.PictureBox();
             this.lechedesl = new System.Windows.Forms.PictureBox();
@@ -42,7 +42,7 @@
             this.azucarml = new System.Windows.Forms.PictureBox();
             this.azul = new System.Windows.Forms.PictureBox();
             this.friol = new System.Windows.Forms.PictureBox();
-            this.lbll19 = new System.Windows.Forms.Label();
+            this.lbll9 = new System.Windows.Forms.Label();
             this.lbll8 = new System.Windows.Forms.Label();
             this.lbll7 = new System.Windows.Forms.Label();
             this.lbll6 = new System.Windows.Forms.Label();
@@ -131,18 +131,19 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnPedidolatte
             // 
-            this.button2.BackColor = System.Drawing.Color.Linen;
-            this.button2.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
-            this.button2.Location = new System.Drawing.Point(845, 484);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(177, 34);
-            this.button2.TabIndex = 28;
-            this.button2.Text = "Terminar pedido";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnPedidolatte.BackColor = System.Drawing.Color.Linen;
+            this.btnPedidolatte.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPedidolatte.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
+            this.btnPedidolatte.Location = new System.Drawing.Point(845, 484);
+            this.btnPedidolatte.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnPedidolatte.Name = "btnPedidolatte";
+            this.btnPedidolatte.Size = new System.Drawing.Size(177, 34);
+            this.btnPedidolatte.TabIndex = 28;
+            this.btnPedidolatte.Text = "Terminar pedido";
+            this.btnPedidolatte.UseVisualStyleBackColor = false;
+            this.btnPedidolatte.Click += new System.EventHandler(this.btnPedidolatte_Click);
             // 
             // panel1
             // 
@@ -155,7 +156,7 @@
             this.panel1.Controls.Add(this.azucarml);
             this.panel1.Controls.Add(this.azul);
             this.panel1.Controls.Add(this.friol);
-            this.panel1.Controls.Add(this.lbll19);
+            this.panel1.Controls.Add(this.lbll9);
             this.panel1.Controls.Add(this.lbll8);
             this.panel1.Controls.Add(this.lbll7);
             this.panel1.Controls.Add(this.lbll6);
@@ -200,6 +201,7 @@
             this.lechedealm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.lechedealm.TabIndex = 125;
             this.lechedealm.TabStop = false;
+            this.lechedealm.Click += new System.EventHandler(this.lechedealm_Click);
             // 
             // lechedesl
             // 
@@ -211,6 +213,7 @@
             this.lechedesl.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.lechedesl.TabIndex = 124;
             this.lechedesl.TabStop = false;
+            this.lechedesl.Click += new System.EventHandler(this.lechedesl_Click);
             // 
             // lecheentl
             // 
@@ -222,6 +225,7 @@
             this.lecheentl.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.lecheentl.TabIndex = 123;
             this.lecheentl.TabStop = false;
+            this.lecheentl.Click += new System.EventHandler(this.lecheentl_Click);
             // 
             // canelal
             // 
@@ -233,6 +237,7 @@
             this.canelal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.canelal.TabIndex = 122;
             this.canelal.TabStop = false;
+            this.canelal.Click += new System.EventHandler(this.canelal_Click);
             // 
             // splendal
             // 
@@ -244,6 +249,7 @@
             this.splendal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.splendal.TabIndex = 121;
             this.splendal.TabStop = false;
+            this.splendal.Click += new System.EventHandler(this.splendal_Click);
             // 
             // azucarml
             // 
@@ -255,6 +261,7 @@
             this.azucarml.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.azucarml.TabIndex = 120;
             this.azucarml.TabStop = false;
+            this.azucarml.Click += new System.EventHandler(this.azucarml_Click);
             // 
             // azul
             // 
@@ -266,6 +273,7 @@
             this.azul.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.azul.TabIndex = 119;
             this.azul.TabStop = false;
+            this.azul.Click += new System.EventHandler(this.azul_Click);
             // 
             // friol
             // 
@@ -277,15 +285,16 @@
             this.friol.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.friol.TabIndex = 118;
             this.friol.TabStop = false;
+            this.friol.Click += new System.EventHandler(this.friol_Click);
             // 
-            // lbll19
+            // lbll9
             // 
-            this.lbll19.AutoSize = true;
-            this.lbll19.Location = new System.Drawing.Point(339, 294);
-            this.lbll19.Name = "lbll19";
-            this.lbll19.Size = new System.Drawing.Size(14, 16);
-            this.lbll19.TabIndex = 117;
-            this.lbll19.Text = "0";
+            this.lbll9.AutoSize = true;
+            this.lbll9.Location = new System.Drawing.Point(339, 294);
+            this.lbll9.Name = "lbll9";
+            this.lbll9.Size = new System.Drawing.Size(14, 16);
+            this.lbll9.TabIndex = 117;
+            this.lbll9.Text = "0";
             // 
             // lbll8
             // 
@@ -381,6 +390,7 @@
             this.lechedealmas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.lechedealmas.TabIndex = 107;
             this.lechedealmas.TabStop = false;
+            this.lechedealmas.Click += new System.EventHandler(this.lechedealmas_Click);
             // 
             // lechedesm
             // 
@@ -392,6 +402,7 @@
             this.lechedesm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.lechedesm.TabIndex = 106;
             this.lechedesm.TabStop = false;
+            this.lechedesm.Click += new System.EventHandler(this.lechedesm_Click);
             // 
             // lecheentem
             // 
@@ -403,6 +414,7 @@
             this.lecheentem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.lecheentem.TabIndex = 105;
             this.lecheentem.TabStop = false;
+            this.lecheentem.Click += new System.EventHandler(this.lecheentem_Click);
             // 
             // canelamas
             // 
@@ -414,6 +426,7 @@
             this.canelamas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.canelamas.TabIndex = 104;
             this.canelamas.TabStop = false;
+            this.canelamas.Click += new System.EventHandler(this.canelamas_Click);
             // 
             // splendamas
             // 
@@ -425,6 +438,7 @@
             this.splendamas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.splendamas.TabIndex = 103;
             this.splendamas.TabStop = false;
+            this.splendamas.Click += new System.EventHandler(this.splendamas_Click);
             // 
             // lecheazum
             // 
@@ -436,6 +450,7 @@
             this.lecheazum.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.lecheazum.TabIndex = 102;
             this.lecheazum.TabStop = false;
+            this.lecheazum.Click += new System.EventHandler(this.lecheazum_Click);
             // 
             // azucarmas
             // 
@@ -447,6 +462,7 @@
             this.azucarmas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.azucarmas.TabIndex = 101;
             this.azucarmas.TabStop = false;
+            this.azucarmas.Click += new System.EventHandler(this.azucarmas_Click);
             // 
             // friom
             // 
@@ -458,6 +474,7 @@
             this.friom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.friom.TabIndex = 100;
             this.friom.TabStop = false;
+            this.friom.Click += new System.EventHandler(this.friom_Click);
             // 
             // Calientelmas
             // 
@@ -469,6 +486,7 @@
             this.Calientelmas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Calientelmas.TabIndex = 99;
             this.Calientelmas.TabStop = false;
+            this.Calientelmas.Click += new System.EventHandler(this.Calientelmas_Click);
             // 
             // label9
             // 
@@ -583,7 +601,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1033, 562);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnPedidolatte);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.panel1);
@@ -623,7 +641,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnPedidolatte;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox lechedealm;
         private System.Windows.Forms.PictureBox lechedesl;
@@ -633,7 +651,7 @@
         private System.Windows.Forms.PictureBox azucarml;
         private System.Windows.Forms.PictureBox azul;
         private System.Windows.Forms.PictureBox friol;
-        private System.Windows.Forms.Label lbll19;
+        private System.Windows.Forms.Label lbll9;
         private System.Windows.Forms.Label lbll8;
         private System.Windows.Forms.Label lbll7;
         private System.Windows.Forms.Label lbll6;

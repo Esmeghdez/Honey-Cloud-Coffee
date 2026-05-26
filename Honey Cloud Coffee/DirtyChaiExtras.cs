@@ -137,9 +137,10 @@ namespace Honey_Cloud_Coffee
                 cantidadSplenda--;
                 lbld5.Text = cantidadSplenda.ToString();
                 ActualizarPedido();
-
             }
+
         }
+
 
         private void Splendam_Click(object sender, EventArgs e)
         {
@@ -175,7 +176,7 @@ namespace Honey_Cloud_Coffee
         }
 
         //-----------------------------------------------------------------------------------------------------------------------
-        //Leche 
+        //Leche Entera -
         private void LecheEn_Click(object sender, EventArgs e)
         {
             int cantidadLechee = int.Parse(lbld7.Text);

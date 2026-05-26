@@ -40,7 +40,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnVolver = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnPedidoManz = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.lblman9 = new System.Windows.Forms.Label();
             this.lblman8 = new System.Windows.Forms.Label();
@@ -260,18 +260,19 @@
             this.btnVolver.UseVisualStyleBackColor = false;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
-            // button2
+            // btnPedidoManz
             // 
-            this.button2.BackColor = System.Drawing.Color.Linen;
-            this.button2.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
-            this.button2.Location = new System.Drawing.Point(837, 480);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(177, 34);
-            this.button2.TabIndex = 35;
-            this.button2.Text = "Terminar pedido";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnPedidoManz.BackColor = System.Drawing.Color.Linen;
+            this.btnPedidoManz.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPedidoManz.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
+            this.btnPedidoManz.Location = new System.Drawing.Point(837, 480);
+            this.btnPedidoManz.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnPedidoManz.Name = "btnPedidoManz";
+            this.btnPedidoManz.Size = new System.Drawing.Size(177, 34);
+            this.btnPedidoManz.TabIndex = 35;
+            this.btnPedidoManz.Text = "Terminar pedido";
+            this.btnPedidoManz.UseVisualStyleBackColor = false;
+            this.btnPedidoManz.Click += new System.EventHandler(this.btnPedidoManz_Click);
             // 
             // button1
             // 
@@ -387,6 +388,7 @@
             this.almendman.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.almendman.TabIndex = 54;
             this.almendman.TabStop = false;
+            this.almendman.Click += new System.EventHandler(this.almendman_Click);
             // 
             // deslman
             // 
@@ -398,6 +400,7 @@
             this.deslman.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.deslman.TabIndex = 53;
             this.deslman.TabStop = false;
+            this.deslman.Click += new System.EventHandler(this.deslman_Click);
             // 
             // enteraman
             // 
@@ -409,6 +412,7 @@
             this.enteraman.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.enteraman.TabIndex = 52;
             this.enteraman.TabStop = false;
+            this.enteraman.Click += new System.EventHandler(this.enteraman_Click);
             // 
             // canelaman
             // 
@@ -420,6 +424,7 @@
             this.canelaman.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.canelaman.TabIndex = 51;
             this.canelaman.TabStop = false;
+            this.canelaman.Click += new System.EventHandler(this.canelaman_Click);
             // 
             // splendaman
             // 
@@ -431,6 +436,7 @@
             this.splendaman.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.splendaman.TabIndex = 50;
             this.splendaman.TabStop = false;
+            this.splendaman.Click += new System.EventHandler(this.splendaman_Click);
             // 
             // azucarmman
             // 
@@ -442,6 +448,7 @@
             this.azucarmman.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.azucarmman.TabIndex = 49;
             this.azucarmman.TabStop = false;
+            this.azucarmman.Click += new System.EventHandler(this.azucarmman_Click);
             // 
             // azucarman
             // 
@@ -453,6 +460,7 @@
             this.azucarman.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.azucarman.TabIndex = 48;
             this.azucarman.TabStop = false;
+            this.azucarman.Click += new System.EventHandler(this.azucarman_Click);
             // 
             // frioman
             // 
@@ -464,6 +472,7 @@
             this.frioman.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.frioman.TabIndex = 47;
             this.frioman.TabStop = false;
+            this.frioman.Click += new System.EventHandler(this.frioman_Click);
             // 
             // calienteman
             // 
@@ -475,6 +484,7 @@
             this.calienteman.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.calienteman.TabIndex = 46;
             this.calienteman.TabStop = false;
+            this.calienteman.Click += new System.EventHandler(this.calienteman_Click);
             // 
             // manalmend
             // 
@@ -486,6 +496,7 @@
             this.manalmend.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.manalmend.TabIndex = 27;
             this.manalmend.TabStop = false;
+            this.manalmend.Click += new System.EventHandler(this.manalmend_Click);
             // 
             // mandesl
             // 
@@ -497,6 +508,7 @@
             this.mandesl.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.mandesl.TabIndex = 25;
             this.mandesl.TabStop = false;
+            this.mandesl.Click += new System.EventHandler(this.mandesl_Click);
             // 
             // manentera
             // 
@@ -508,6 +520,7 @@
             this.manentera.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.manentera.TabIndex = 24;
             this.manentera.TabStop = false;
+            this.manentera.Click += new System.EventHandler(this.manentera_Click);
             // 
             // mancanela
             // 
@@ -519,6 +532,7 @@
             this.mancanela.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.mancanela.TabIndex = 23;
             this.mancanela.TabStop = false;
+            this.mancanela.Click += new System.EventHandler(this.mancanela_Click);
             // 
             // mansplenda
             // 
@@ -530,6 +544,7 @@
             this.mansplenda.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.mansplenda.TabIndex = 22;
             this.mansplenda.TabStop = false;
+            this.mansplenda.Click += new System.EventHandler(this.mansplenda_Click);
             // 
             // manazucarm
             // 
@@ -541,6 +556,7 @@
             this.manazucarm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.manazucarm.TabIndex = 21;
             this.manazucarm.TabStop = false;
+            this.manazucarm.Click += new System.EventHandler(this.manazucarm_Click);
             // 
             // maazucar
             // 
@@ -552,6 +568,7 @@
             this.maazucar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.maazucar.TabIndex = 20;
             this.maazucar.TabStop = false;
+            this.maazucar.Click += new System.EventHandler(this.maazucar_Click);
             // 
             // manfrio
             // 
@@ -563,6 +580,7 @@
             this.manfrio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.manfrio.TabIndex = 19;
             this.manfrio.TabStop = false;
+            this.manfrio.Click += new System.EventHandler(this.manfrio_Click);
             // 
             // macaliente
             // 
@@ -574,6 +592,7 @@
             this.macaliente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.macaliente.TabIndex = 18;
             this.macaliente.TabStop = false;
+            this.macaliente.Click += new System.EventHandler(this.macaliente_Click);
             // 
             // pictureBox1
             // 
@@ -592,7 +611,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1033, 562);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnPedidoManz);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
@@ -649,7 +668,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnVolver;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnPedidoManz;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label lblman9;
         private System.Windows.Forms.Label lblman8;
