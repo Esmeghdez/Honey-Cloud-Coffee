@@ -73,6 +73,16 @@ namespace Honey_Cloud_Coffee.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2026_05_23_1553021 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2026-05-23 1553021", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Honey_Moon_Coffee {
             get {
                 object obj = ResourceManager.GetObject("Honey Moon Coffee", resourceCulture);
