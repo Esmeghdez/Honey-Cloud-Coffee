@@ -23,7 +23,6 @@ namespace Honey_Cloud_Coffee
 
     // CANELA
 
-
     public class Canela : LatteExtras
     {
         public Canela(Bebida bebida) : base(bebida)
@@ -141,7 +140,7 @@ namespace Honey_Cloud_Coffee
 
         public override double Costo()
         {
-            return bebida.Costo() + 5;
+            return bebida.Costo() + 0;
         }
     }
 
@@ -162,7 +161,7 @@ namespace Honey_Cloud_Coffee
 
         public override double Costo()
         {
-            return bebida.Costo() + 5;
+            return bebida.Costo() + 0;
         }
     }
 
@@ -183,7 +182,7 @@ namespace Honey_Cloud_Coffee
 
         public override double Costo()
         {
-            return bebida.Costo();
+            return bebida.Costo() + 0 ;
         }
     }
 

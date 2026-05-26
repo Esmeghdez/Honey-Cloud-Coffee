@@ -30,10 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MokaExtras));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnVolver = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.almendmok = new System.Windows.Forms.PictureBox();
             this.deslmok = new System.Windows.Forms.PictureBox();
             this.enteramok = new System.Windows.Forms.PictureBox();
@@ -70,8 +66,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnVolver = new System.Windows.Forms.Button();
+            this.btnPedidoMoka = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.EstadoPedido = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.almendmok)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.deslmok)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.enteramok)).BeginInit();
@@ -90,6 +90,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.mokazucar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mokfrio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mokcaliente)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -137,58 +138,6 @@
             this.panel1.Size = new System.Drawing.Size(418, 314);
             this.panel1.TabIndex = 13;
             // 
-            // btnVolver
-            // 
-            this.btnVolver.BackColor = System.Drawing.Color.Linen;
-            this.btnVolver.Font = new System.Drawing.Font("Constantia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolver.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
-            this.btnVolver.Location = new System.Drawing.Point(288, 486);
-            this.btnVolver.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(98, 34);
-            this.btnVolver.TabIndex = 22;
-            this.btnVolver.Text = "Volver";
-            this.btnVolver.UseVisualStyleBackColor = false;
-            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Linen;
-            this.button2.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
-            this.button2.Location = new System.Drawing.Point(845, 486);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(177, 34);
-            this.button2.TabIndex = 30;
-            this.button2.Text = "Terminar pedido";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Linen;
-            this.button1.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold);
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
-            this.button1.Location = new System.Drawing.Point(845, 447);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(177, 34);
-            this.button1.TabIndex = 31;
-            this.button1.Text = "Agregar Mas";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Honey_Cloud_Coffee.Properties.Resources.Honey_Moon_Coffee__8_;
-            this.pictureBox1.Location = new System.Drawing.Point(-1, -17);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1035, 595);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
-            // 
             // almendmok
             // 
             this.almendmok.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
@@ -199,6 +148,7 @@
             this.almendmok.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.almendmok.TabIndex = 125;
             this.almendmok.TabStop = false;
+            this.almendmok.Click += new System.EventHandler(this.almendmok_Click);
             // 
             // deslmok
             // 
@@ -210,6 +160,7 @@
             this.deslmok.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.deslmok.TabIndex = 124;
             this.deslmok.TabStop = false;
+            this.deslmok.Click += new System.EventHandler(this.deslmok_Click);
             // 
             // enteramok
             // 
@@ -221,6 +172,7 @@
             this.enteramok.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.enteramok.TabIndex = 123;
             this.enteramok.TabStop = false;
+            this.enteramok.Click += new System.EventHandler(this.enteramok_Click);
             // 
             // canelamok
             // 
@@ -232,6 +184,7 @@
             this.canelamok.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.canelamok.TabIndex = 122;
             this.canelamok.TabStop = false;
+            this.canelamok.Click += new System.EventHandler(this.canelamok_Click);
             // 
             // splendamok
             // 
@@ -243,6 +196,7 @@
             this.splendamok.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.splendamok.TabIndex = 121;
             this.splendamok.TabStop = false;
+            this.splendamok.Click += new System.EventHandler(this.splendamok_Click);
             // 
             // azucarmmok
             // 
@@ -254,6 +208,7 @@
             this.azucarmmok.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.azucarmmok.TabIndex = 120;
             this.azucarmmok.TabStop = false;
+            this.azucarmmok.Click += new System.EventHandler(this.azucarmmok_Click);
             // 
             // azucarmok
             // 
@@ -265,6 +220,7 @@
             this.azucarmok.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.azucarmok.TabIndex = 119;
             this.azucarmok.TabStop = false;
+            this.azucarmok.Click += new System.EventHandler(this.azucarmok_Click);
             // 
             // friomok
             // 
@@ -276,6 +232,7 @@
             this.friomok.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.friomok.TabIndex = 118;
             this.friomok.TabStop = false;
+            this.friomok.Click += new System.EventHandler(this.friomok_Click);
             // 
             // lblmk9
             // 
@@ -368,6 +325,7 @@
             this.calientemok.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.calientemok.TabIndex = 108;
             this.calientemok.TabStop = false;
+            this.calientemok.Click += new System.EventHandler(this.calientemok_Click);
             // 
             // mokalmend
             // 
@@ -379,6 +337,7 @@
             this.mokalmend.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.mokalmend.TabIndex = 107;
             this.mokalmend.TabStop = false;
+            this.mokalmend.Click += new System.EventHandler(this.mokalmend_Click);
             // 
             // mokdesl
             // 
@@ -390,6 +349,7 @@
             this.mokdesl.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.mokdesl.TabIndex = 106;
             this.mokdesl.TabStop = false;
+            this.mokdesl.Click += new System.EventHandler(this.mokdesl_Click);
             // 
             // mokentera
             // 
@@ -401,6 +361,7 @@
             this.mokentera.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.mokentera.TabIndex = 105;
             this.mokentera.TabStop = false;
+            this.mokentera.Click += new System.EventHandler(this.mokentera_Click);
             // 
             // mokcanela
             // 
@@ -412,6 +373,7 @@
             this.mokcanela.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.mokcanela.TabIndex = 104;
             this.mokcanela.TabStop = false;
+            this.mokcanela.Click += new System.EventHandler(this.mokcanela_Click);
             // 
             // moksplenda
             // 
@@ -423,6 +385,7 @@
             this.moksplenda.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.moksplenda.TabIndex = 103;
             this.moksplenda.TabStop = false;
+            this.moksplenda.Click += new System.EventHandler(this.moksplenda_Click);
             // 
             // mokazucarm
             // 
@@ -434,6 +397,7 @@
             this.mokazucarm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.mokazucarm.TabIndex = 102;
             this.mokazucarm.TabStop = false;
+            this.mokazucarm.Click += new System.EventHandler(this.mokazucarm_Click);
             // 
             // mokazucar
             // 
@@ -445,6 +409,7 @@
             this.mokazucar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.mokazucar.TabIndex = 101;
             this.mokazucar.TabStop = false;
+            this.mokazucar.Click += new System.EventHandler(this.mokazucar_Click);
             // 
             // mokfrio
             // 
@@ -456,6 +421,7 @@
             this.mokfrio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.mokfrio.TabIndex = 100;
             this.mokfrio.TabStop = false;
+            this.mokfrio.Click += new System.EventHandler(this.mokfrio_Click);
             // 
             // mokcaliente
             // 
@@ -467,6 +433,7 @@
             this.mokcaliente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.mokcaliente.TabIndex = 99;
             this.mokcaliente.TabStop = false;
+            this.mokcaliente.Click += new System.EventHandler(this.mokcaliente_Click);
             // 
             // label9
             // 
@@ -576,13 +543,81 @@
             this.label2.TabIndex = 91;
             this.label2.Text = "Caliente......................$0";
             // 
+            // btnVolver
+            // 
+            this.btnVolver.BackColor = System.Drawing.Color.Linen;
+            this.btnVolver.Font = new System.Drawing.Font("Constantia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
+            this.btnVolver.Location = new System.Drawing.Point(288, 486);
+            this.btnVolver.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(98, 34);
+            this.btnVolver.TabIndex = 22;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
+            // btnPedidoMoka
+            // 
+            this.btnPedidoMoka.BackColor = System.Drawing.Color.Linen;
+            this.btnPedidoMoka.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPedidoMoka.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
+            this.btnPedidoMoka.Location = new System.Drawing.Point(845, 486);
+            this.btnPedidoMoka.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnPedidoMoka.Name = "btnPedidoMoka";
+            this.btnPedidoMoka.Size = new System.Drawing.Size(177, 34);
+            this.btnPedidoMoka.TabIndex = 30;
+            this.btnPedidoMoka.Text = "Terminar pedido";
+            this.btnPedidoMoka.UseVisualStyleBackColor = false;
+            this.btnPedidoMoka.Click += new System.EventHandler(this.btnPedidoMoka_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Linen;
+            this.button1.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
+            this.button1.Location = new System.Drawing.Point(845, 447);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(177, 34);
+            this.button1.TabIndex = 31;
+            this.button1.Text = "Agregar Mas";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Honey_Cloud_Coffee.Properties.Resources.Honey_Moon_Coffee__8_;
+            this.pictureBox1.Location = new System.Drawing.Point(-1, -17);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1035, 595);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            // 
+            // EstadoPedido
+            // 
+            this.EstadoPedido.BackColor = System.Drawing.Color.Linen;
+            this.EstadoPedido.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold);
+            this.EstadoPedido.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
+            this.EstadoPedido.Location = new System.Drawing.Point(845, 405);
+            this.EstadoPedido.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.EstadoPedido.Name = "EstadoPedido";
+            this.EstadoPedido.Size = new System.Drawing.Size(177, 34);
+            this.EstadoPedido.TabIndex = 32;
+            this.EstadoPedido.Text = "Confirmar Pedido";
+            this.EstadoPedido.UseVisualStyleBackColor = false;
+            this.EstadoPedido.Click += new System.EventHandler(this.EstadoPedido_Click);
+            // 
             // MokaExtras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1033, 562);
+            this.Controls.Add(this.EstadoPedido);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnPedidoMoka);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
@@ -593,7 +628,6 @@
             this.Text = "Moka";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.almendmok)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.deslmok)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.enteramok)).EndInit();
@@ -612,6 +646,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.mokazucar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mokfrio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mokcaliente)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -621,7 +656,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnVolver;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnPedidoMoka;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox almendmok;
         private System.Windows.Forms.PictureBox deslmok;
@@ -659,5 +694,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button EstadoPedido;
     }
 }

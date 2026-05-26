@@ -30,10 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DirtyChaiExtras));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnVolver = new System.Windows.Forms.Button();
-            this.btnPedido = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Lecheal = new System.Windows.Forms.PictureBox();
             this.Lechedes = new System.Windows.Forms.PictureBox();
             this.LecheEn = new System.Windows.Forms.PictureBox();
@@ -70,8 +66,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnVolver = new System.Windows.Forms.Button();
+            this.btnPedido = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.EstadoPedido = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Lecheal)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Lechedes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LecheEn)).BeginInit();
@@ -90,6 +90,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Azucarm)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Friodm)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -136,59 +137,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(418, 314);
             this.panel1.TabIndex = 14;
-            // 
-            // btnVolver
-            // 
-            this.btnVolver.BackColor = System.Drawing.Color.Linen;
-            this.btnVolver.Font = new System.Drawing.Font("Constantia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolver.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
-            this.btnVolver.Location = new System.Drawing.Point(284, 480);
-            this.btnVolver.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(98, 34);
-            this.btnVolver.TabIndex = 23;
-            this.btnVolver.Text = "Volver";
-            this.btnVolver.UseVisualStyleBackColor = false;
-            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
-            // 
-            // btnPedido
-            // 
-            this.btnPedido.BackColor = System.Drawing.Color.Linen;
-            this.btnPedido.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPedido.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
-            this.btnPedido.Location = new System.Drawing.Point(845, 482);
-            this.btnPedido.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnPedido.Name = "btnPedido";
-            this.btnPedido.Size = new System.Drawing.Size(177, 34);
-            this.btnPedido.TabIndex = 31;
-            this.btnPedido.Text = "Terminar pedido";
-            this.btnPedido.UseVisualStyleBackColor = false;
-            this.btnPedido.Click += new System.EventHandler(this.btnPedido_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Linen;
-            this.button1.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold);
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
-            this.button1.Location = new System.Drawing.Point(845, 441);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(177, 34);
-            this.button1.TabIndex = 32;
-            this.button1.Text = "Agregar Mas";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Honey_Cloud_Coffee.Properties.Resources.Honey_Moon_Coffee__9_;
-            this.pictureBox1.Location = new System.Drawing.Point(-1, -17);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1035, 595);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
             // 
             // Lecheal
             // 
@@ -595,11 +543,79 @@
             this.label2.TabIndex = 91;
             this.label2.Text = "Caliente......................$0";
             // 
+            // btnVolver
+            // 
+            this.btnVolver.BackColor = System.Drawing.Color.Linen;
+            this.btnVolver.Font = new System.Drawing.Font("Constantia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
+            this.btnVolver.Location = new System.Drawing.Point(284, 480);
+            this.btnVolver.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(98, 34);
+            this.btnVolver.TabIndex = 23;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
+            // btnPedido
+            // 
+            this.btnPedido.BackColor = System.Drawing.Color.Linen;
+            this.btnPedido.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPedido.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
+            this.btnPedido.Location = new System.Drawing.Point(845, 482);
+            this.btnPedido.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnPedido.Name = "btnPedido";
+            this.btnPedido.Size = new System.Drawing.Size(177, 34);
+            this.btnPedido.TabIndex = 31;
+            this.btnPedido.Text = "Terminar pedido";
+            this.btnPedido.UseVisualStyleBackColor = false;
+            this.btnPedido.Click += new System.EventHandler(this.btnPedido_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Linen;
+            this.button1.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
+            this.button1.Location = new System.Drawing.Point(845, 441);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(177, 34);
+            this.button1.TabIndex = 32;
+            this.button1.Text = "Agregar Mas";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Honey_Cloud_Coffee.Properties.Resources.Honey_Moon_Coffee__9_;
+            this.pictureBox1.Location = new System.Drawing.Point(-1, -17);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1035, 595);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
+            // EstadoPedido
+            // 
+            this.EstadoPedido.BackColor = System.Drawing.Color.Linen;
+            this.EstadoPedido.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold);
+            this.EstadoPedido.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
+            this.EstadoPedido.Location = new System.Drawing.Point(845, 402);
+            this.EstadoPedido.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.EstadoPedido.Name = "EstadoPedido";
+            this.EstadoPedido.Size = new System.Drawing.Size(177, 34);
+            this.EstadoPedido.TabIndex = 33;
+            this.EstadoPedido.Text = "Confirmar Pedido";
+            this.EstadoPedido.UseVisualStyleBackColor = false;
+            this.EstadoPedido.Click += new System.EventHandler(this.EstadoPedido_Click);
+            // 
             // DirtyChaiExtras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1033, 562);
+            this.Controls.Add(this.EstadoPedido);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnPedido);
             this.Controls.Add(this.btnVolver);
@@ -612,7 +628,6 @@
             this.Text = "Dirty Chai";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Lecheal)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Lechedes)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LecheEn)).EndInit();
@@ -631,6 +646,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Azucarm)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Friodm)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -678,5 +694,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button EstadoPedido;
     }
 }

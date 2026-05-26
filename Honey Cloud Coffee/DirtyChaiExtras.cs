@@ -13,11 +13,13 @@ namespace Honey_Cloud_Coffee
     public partial class DirtyChaiExtras : Form
     {
         private Bebida miBebidaSeleccionada;
+        private Pedido pedido;
         public DirtyChaiExtras()
         {
             InitializeComponent();
-            this.miBebidaSeleccionada = new DirtyChai();
-
+            this.miBebidaSeleccionada = new Capuccino();
+            this.pedido = new Pedido(miBebidaSeleccionada);
+            EstadoPedido.Text = pedido.ObtenerEstado();
             ActualizarPedido();
         }
 
@@ -41,6 +43,7 @@ namespace Honey_Cloud_Coffee
         //Caliente
         private void Caliented_Click(object sender, EventArgs e)
         {
+
             int cantidadCaliente = int.Parse(lbld1.Text); 
             if (cantidadCaliente > 0)
             {
@@ -52,6 +55,7 @@ namespace Honey_Cloud_Coffee
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
+
             int cantidadCaliente = int.Parse(lbld1.Text);
 
             cantidadCaliente++;
@@ -64,6 +68,7 @@ namespace Honey_Cloud_Coffee
         //Frio
         private void friod_Click(object sender, EventArgs e)
         {
+
             int cantidadFrio = int.Parse(lbld2.Text); 
             if (cantidadFrio > 0)
             {
@@ -75,6 +80,7 @@ namespace Honey_Cloud_Coffee
 
         private void Friodm_Click(object sender, EventArgs e)
         {
+
             int cantidadFrio = int.Parse(lbld2.Text); 
             cantidadFrio++;
             lbld2.Text = cantidadFrio.ToString();
@@ -85,6 +91,7 @@ namespace Honey_Cloud_Coffee
         //azucar
         private void azucard_Click(object sender, EventArgs e)
         {
+
             int cantidadAzucar = int.Parse(lbld3.Text);
             if (cantidadAzucar > 0)
 
@@ -97,6 +104,7 @@ namespace Honey_Cloud_Coffee
 
         private void Azucarm_Click(object sender, EventArgs e)
         {
+
             int cantidadAzucar = int.Parse(lbld3.Text);
 
             cantidadAzucar++;
@@ -108,6 +116,7 @@ namespace Honey_Cloud_Coffee
         //Azucar M
         private void azucarmd_Click(object sender, EventArgs e)
         {
+
             int cantidadAzucarM = int.Parse(lbld4.Text);
 
             if (cantidadAzucarM > 0)
@@ -120,6 +129,7 @@ namespace Honey_Cloud_Coffee
 
         private void azucardmm_Click(object sender, EventArgs e)
         {
+
             int cantidadAzucarM = int.Parse(lbld4.Text);
             cantidadAzucarM++;
             lbld4.Text = cantidadAzucarM.ToString();
@@ -130,6 +140,7 @@ namespace Honey_Cloud_Coffee
         //Splenda
         private void Splenda_Click(object sender, EventArgs e)
         {
+
             int cantidadSplenda = int.Parse(lbld5.Text);
 
             if (cantidadSplenda > 0)
@@ -137,12 +148,14 @@ namespace Honey_Cloud_Coffee
                 cantidadSplenda--;
                 lbld5.Text = cantidadSplenda.ToString();
                 ActualizarPedido();
-
             }
+
         }
+
 
         private void Splendam_Click(object sender, EventArgs e)
         {
+
             int cantidadSplenda = int.Parse(lbld5.Text);
             cantidadSplenda++;
             lbld5.Text = cantidadSplenda.ToString();
@@ -154,6 +167,7 @@ namespace Honey_Cloud_Coffee
         //Canela
         private void Canela_Click(object sender, EventArgs e)
         {
+  
             int cantidadCanela = int.Parse(lbld6.Text);
 
             if (cantidadCanela > 0)
@@ -167,6 +181,7 @@ namespace Honey_Cloud_Coffee
 
         private void Canelam_Click(object sender, EventArgs e)
         {
+
             int cantidadCanela = int.Parse(lbld6.Text);
             cantidadCanela++;
             lbld6.Text = cantidadCanela.ToString();
@@ -175,9 +190,10 @@ namespace Honey_Cloud_Coffee
         }
 
         //-----------------------------------------------------------------------------------------------------------------------
-        //Leche 
+        //Leche Entera -
         private void LecheEn_Click(object sender, EventArgs e)
         {
+  
             int cantidadLechee = int.Parse(lbld7.Text);
 
             if (cantidadLechee > 0)
@@ -191,6 +207,7 @@ namespace Honey_Cloud_Coffee
 
         private void LecheEnm_Click(object sender, EventArgs e)
         {
+ 
             int cantidadLechee = int.Parse(lbld7.Text);
 
             cantidadLechee++;
@@ -204,6 +221,7 @@ namespace Honey_Cloud_Coffee
         //Leche Deslactosada -
         private void Lechedes_Click(object sender, EventArgs e)
         {
+
             int cantidadLeched = int.Parse(lbld8.Text);
 
             if (cantidadLeched > 0)
@@ -216,6 +234,7 @@ namespace Honey_Cloud_Coffee
 
         private void lecheDesm_Click(object sender, EventArgs e)
         {
+
             int cantidadLeched = int.Parse(lbld8.Text);
 
             cantidadLeched++;
@@ -228,6 +247,7 @@ namespace Honey_Cloud_Coffee
         //
         private void Lecheal_Click(object sender, EventArgs e)
         {
+
             int cantidadLechea = int.Parse(lbld9.Text);
 
             if (cantidadLechea > 0)
@@ -241,6 +261,7 @@ namespace Honey_Cloud_Coffee
 
         private void pictureBox10_Click(object sender, EventArgs e)
         {
+
             int cantidadLechea = int.Parse(lbld9.Text);
 
             cantidadLechea++;
@@ -454,6 +475,8 @@ namespace Honey_Cloud_Coffee
             {
                 especificacionesLimpias += $"\n   , Leche de Almendras (x{cantLechea})";
             }
+            pedido.Avanzar();
+            EstadoPedido.Text = pedido.ObtenerEstado();
 
             // -------------------------------------------------------------------------
 
@@ -481,10 +504,20 @@ namespace Honey_Cloud_Coffee
             lbld8.Text = "0";  //Leche Deslactosada
             lbld9.Text = "0";   //Leche de Almendras
 
+            this.pedido = new Pedido(miBebidaSeleccionada);
+            EstadoPedido.Text = pedido.ObtenerEstado();
+
             ActualizarPedido();
         }
 
-
+        private void EstadoPedido_Click(object sender, EventArgs e)
+        {
+            pedido.Avanzar();
+            MessageBox.Show($"Estado actual: {pedido.ObtenerEstado()}",
+                            "Honey Cloud Coffee",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Information);
+        }
     }
 }
 

@@ -70,6 +70,7 @@
             this.btnPedidoF = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.EstadoPedido = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lecheal)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lechedes)).BeginInit();
@@ -604,11 +605,26 @@
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
+            // EstadoPedido
+            // 
+            this.EstadoPedido.BackColor = System.Drawing.Color.Linen;
+            this.EstadoPedido.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold);
+            this.EstadoPedido.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
+            this.EstadoPedido.Location = new System.Drawing.Point(834, 394);
+            this.EstadoPedido.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.EstadoPedido.Name = "EstadoPedido";
+            this.EstadoPedido.Size = new System.Drawing.Size(177, 34);
+            this.EstadoPedido.TabIndex = 36;
+            this.EstadoPedido.Text = "Confirmar Pedido";
+            this.EstadoPedido.UseVisualStyleBackColor = false;
+            this.EstadoPedido.Click += new System.EventHandler(this.EstadoPedido_Click);
+            // 
             // FruRoExtra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1033, 562);
+            this.Controls.Add(this.EstadoPedido);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnPedidoF);
             this.Controls.Add(this.btnVolver);
@@ -687,5 +703,6 @@
         private System.Windows.Forms.PictureBox azumasf;
         private System.Windows.Forms.PictureBox azucarf;
         private System.Windows.Forms.PictureBox friof;
+        private System.Windows.Forms.Button EstadoPedido;
     }
 }

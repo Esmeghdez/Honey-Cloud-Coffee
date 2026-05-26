@@ -31,9 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MatchaExtras));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnVolver = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.almenmat = new System.Windows.Forms.PictureBox();
             this.deslmat = new System.Windows.Forms.PictureBox();
             this.enteramat = new System.Windows.Forms.PictureBox();
@@ -70,6 +67,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnVolver = new System.Windows.Forms.Button();
+            this.btnPedidoMatcha = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.EstadoPedido = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.almenmat)).BeginInit();
@@ -148,47 +149,6 @@
             this.panel1.Size = new System.Drawing.Size(417, 314);
             this.panel1.TabIndex = 16;
             // 
-            // btnVolver
-            // 
-            this.btnVolver.BackColor = System.Drawing.Color.Linen;
-            this.btnVolver.Font = new System.Drawing.Font("Constantia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolver.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
-            this.btnVolver.Location = new System.Drawing.Point(266, 478);
-            this.btnVolver.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(98, 34);
-            this.btnVolver.TabIndex = 25;
-            this.btnVolver.Text = "Volver";
-            this.btnVolver.UseVisualStyleBackColor = false;
-            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Linen;
-            this.button2.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
-            this.button2.Location = new System.Drawing.Point(828, 480);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(177, 34);
-            this.button2.TabIndex = 33;
-            this.button2.Text = "Terminar pedido";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Linen;
-            this.button1.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold);
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
-            this.button1.Location = new System.Drawing.Point(828, 441);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(177, 34);
-            this.button1.TabIndex = 34;
-            this.button1.Text = "Agregar Mas";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // almenmat
             // 
             this.almenmat.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
@@ -199,6 +159,7 @@
             this.almenmat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.almenmat.TabIndex = 125;
             this.almenmat.TabStop = false;
+            this.almenmat.Click += new System.EventHandler(this.almenmat_Click);
             // 
             // deslmat
             // 
@@ -210,6 +171,7 @@
             this.deslmat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.deslmat.TabIndex = 124;
             this.deslmat.TabStop = false;
+            this.deslmat.Click += new System.EventHandler(this.deslmat_Click);
             // 
             // enteramat
             // 
@@ -221,6 +183,7 @@
             this.enteramat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.enteramat.TabIndex = 123;
             this.enteramat.TabStop = false;
+            this.enteramat.Click += new System.EventHandler(this.enteramat_Click);
             // 
             // canelamat
             // 
@@ -232,6 +195,7 @@
             this.canelamat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.canelamat.TabIndex = 122;
             this.canelamat.TabStop = false;
+            this.canelamat.Click += new System.EventHandler(this.canelamat_Click);
             // 
             // splendamat
             // 
@@ -243,6 +207,7 @@
             this.splendamat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.splendamat.TabIndex = 121;
             this.splendamat.TabStop = false;
+            this.splendamat.Click += new System.EventHandler(this.splendamat_Click);
             // 
             // azucarmmat
             // 
@@ -254,6 +219,7 @@
             this.azucarmmat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.azucarmmat.TabIndex = 120;
             this.azucarmmat.TabStop = false;
+            this.azucarmmat.Click += new System.EventHandler(this.azucarmmat_Click);
             // 
             // azucarmat
             // 
@@ -265,6 +231,7 @@
             this.azucarmat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.azucarmat.TabIndex = 119;
             this.azucarmat.TabStop = false;
+            this.azucarmat.Click += new System.EventHandler(this.azucarmat_Click);
             // 
             // friomat
             // 
@@ -276,6 +243,7 @@
             this.friomat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.friomat.TabIndex = 118;
             this.friomat.TabStop = false;
+            this.friomat.Click += new System.EventHandler(this.friomat_Click);
             // 
             // lblm9
             // 
@@ -368,6 +336,7 @@
             this.calientemat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.calientemat.TabIndex = 108;
             this.calientemat.TabStop = false;
+            this.calientemat.Click += new System.EventHandler(this.calientemat_Click);
             // 
             // matalmend
             // 
@@ -379,6 +348,7 @@
             this.matalmend.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.matalmend.TabIndex = 107;
             this.matalmend.TabStop = false;
+            this.matalmend.Click += new System.EventHandler(this.matalmend_Click);
             // 
             // matdesl
             // 
@@ -390,6 +360,7 @@
             this.matdesl.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.matdesl.TabIndex = 106;
             this.matdesl.TabStop = false;
+            this.matdesl.Click += new System.EventHandler(this.matdesl_Click);
             // 
             // matentera
             // 
@@ -401,6 +372,7 @@
             this.matentera.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.matentera.TabIndex = 105;
             this.matentera.TabStop = false;
+            this.matentera.Click += new System.EventHandler(this.matentera_Click);
             // 
             // matcanela
             // 
@@ -412,6 +384,7 @@
             this.matcanela.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.matcanela.TabIndex = 104;
             this.matcanela.TabStop = false;
+            this.matcanela.Click += new System.EventHandler(this.matcanela_Click);
             // 
             // matsplenda
             // 
@@ -423,6 +396,7 @@
             this.matsplenda.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.matsplenda.TabIndex = 103;
             this.matsplenda.TabStop = false;
+            this.matsplenda.Click += new System.EventHandler(this.matsplenda_Click);
             // 
             // matazucarm
             // 
@@ -434,6 +408,7 @@
             this.matazucarm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.matazucarm.TabIndex = 102;
             this.matazucarm.TabStop = false;
+            this.matazucarm.Click += new System.EventHandler(this.matazucarm_Click);
             // 
             // matazucar
             // 
@@ -445,6 +420,7 @@
             this.matazucar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.matazucar.TabIndex = 101;
             this.matazucar.TabStop = false;
+            this.matazucar.Click += new System.EventHandler(this.matazucar_Click);
             // 
             // matfrio
             // 
@@ -456,6 +432,7 @@
             this.matfrio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.matfrio.TabIndex = 100;
             this.matfrio.TabStop = false;
+            this.matfrio.Click += new System.EventHandler(this.matfrio_Click);
             // 
             // matcaliente
             // 
@@ -467,6 +444,7 @@
             this.matcaliente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.matcaliente.TabIndex = 99;
             this.matcaliente.TabStop = false;
+            this.matcaliente.Click += new System.EventHandler(this.matcaliente_Click);
             // 
             // label9
             // 
@@ -576,13 +554,70 @@
             this.label2.TabIndex = 91;
             this.label2.Text = "Caliente......................$0";
             // 
+            // btnVolver
+            // 
+            this.btnVolver.BackColor = System.Drawing.Color.Linen;
+            this.btnVolver.Font = new System.Drawing.Font("Constantia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
+            this.btnVolver.Location = new System.Drawing.Point(266, 478);
+            this.btnVolver.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(98, 34);
+            this.btnVolver.TabIndex = 25;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
+            // btnPedidoMatcha
+            // 
+            this.btnPedidoMatcha.BackColor = System.Drawing.Color.Linen;
+            this.btnPedidoMatcha.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPedidoMatcha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
+            this.btnPedidoMatcha.Location = new System.Drawing.Point(828, 480);
+            this.btnPedidoMatcha.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnPedidoMatcha.Name = "btnPedidoMatcha";
+            this.btnPedidoMatcha.Size = new System.Drawing.Size(177, 34);
+            this.btnPedidoMatcha.TabIndex = 33;
+            this.btnPedidoMatcha.Text = "Terminar pedido";
+            this.btnPedidoMatcha.UseVisualStyleBackColor = false;
+            this.btnPedidoMatcha.Click += new System.EventHandler(this.btnPedidoMatcha_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Linen;
+            this.button1.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
+            this.button1.Location = new System.Drawing.Point(828, 441);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(177, 34);
+            this.button1.TabIndex = 34;
+            this.button1.Text = "Agregar Mas";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // EstadoPedido
+            // 
+            this.EstadoPedido.BackColor = System.Drawing.Color.Linen;
+            this.EstadoPedido.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold);
+            this.EstadoPedido.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
+            this.EstadoPedido.Location = new System.Drawing.Point(828, 403);
+            this.EstadoPedido.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.EstadoPedido.Name = "EstadoPedido";
+            this.EstadoPedido.Size = new System.Drawing.Size(177, 34);
+            this.EstadoPedido.TabIndex = 35;
+            this.EstadoPedido.Text = "Confirmar Pedido";
+            this.EstadoPedido.UseVisualStyleBackColor = false;
+            this.EstadoPedido.Click += new System.EventHandler(this.EstadoPedido_Click);
+            // 
             // MatchaExtras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1033, 562);
+            this.Controls.Add(this.EstadoPedido);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnPedidoMatcha);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
@@ -621,7 +656,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnVolver;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnPedidoMatcha;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox almenmat;
         private System.Windows.Forms.PictureBox deslmat;
@@ -659,5 +694,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button EstadoPedido;
     }
 }

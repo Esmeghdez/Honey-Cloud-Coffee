@@ -12,9 +12,15 @@ namespace Honey_Cloud_Coffee
 {
     public partial class MatchaExtras : Form
     {
+        private Bebida miBebidaSeleccionada;
+        private Pedido pedido;
         public MatchaExtras()
         {
             InitializeComponent();
+            this.miBebidaSeleccionada = new Capuccino();
+            this.pedido = new Pedido(miBebidaSeleccionada);
+            EstadoPedido.Text = pedido.ObtenerEstado();
+            ActualizarPedido();
         }
 
         private void btnVolver_Click(object sender, EventArgs e)
@@ -35,94 +41,476 @@ namespace Honey_Cloud_Coffee
             this.Hide();
         }
 
-        private void tla_Click(object sender, EventArgs e)
+        //-------------------------------------------------------------
+        //Caliente
+        private void calientemat_Click(object sender, EventArgs e)
         {
 
+            int cantidadCaliente = int.Parse(lblm1.Text);
+            if (cantidadCaliente > 0)
+            {
+                cantidadCaliente--;
+                lblm1.Text = cantidadCaliente.ToString();
+                ActualizarPedido();
+            }
         }
 
-        private void tld_Click(object sender, EventArgs e)
+        private void matcaliente_Click(object sender, EventArgs e)
         {
 
+            int cantidadCaliente = int.Parse(lblm1.Text);
+
+            cantidadCaliente++;
+            lblm1.Text = cantidadCaliente.ToString();
+            ActualizarPedido();
         }
 
-        private void tle_Click(object sender, EventArgs e)
+        //-------------------------------------------------------------
+        //Frio
+        private void friomat_Click(object sender, EventArgs e)
         {
 
+            int cantidadFrio = int.Parse(lblm2.Text);
+            if (cantidadFrio > 0)
+            {
+                cantidadFrio--;
+                lblm2.Text = cantidadFrio.ToString();
+                ActualizarPedido();
+            }
         }
 
-        private void tcan_Click(object sender, EventArgs e)
+        private void matfrio_Click(object sender, EventArgs e)
         {
 
+            int cantidadFrio = int.Parse(lblm2.Text);
+            cantidadFrio++;
+            lblm2.Text = cantidadFrio.ToString();
+            ActualizarPedido();
         }
 
-        private void ts_Click(object sender, EventArgs e)
+        //-------------------------------------------------------------
+        //Azucar -
+        private void azucarmat_Click(object sender, EventArgs e)
         {
 
+            int cantidadAzucar = int.Parse(lblm3.Text);
+            if (cantidadAzucar > 0)
+
+            {
+                cantidadAzucar--;
+                lblm3.Text = cantidadAzucar.ToString();
+                ActualizarPedido();
+            }
         }
 
-        private void tazm_Click(object sender, EventArgs e)
+        private void matazucar_Click(object sender, EventArgs e)
         {
+ 
+            int cantidadAzucar = int.Parse(lblm3.Text);
 
+            cantidadAzucar++;
+            lblm3.Text = cantidadAzucar.ToString();
+            ActualizarPedido();
         }
 
-        private void ta_Click(object sender, EventArgs e)
+        //-------------------------------------------------------------
+        //
+        private void azucarmmat_Click(object sender, EventArgs e)
         {
 
+            int cantidadAzucarM = int.Parse(lblm4.Text);
+
+            if (cantidadAzucarM > 0)
+            {
+                cantidadAzucarM--;
+                lblm4.Text = cantidadAzucarM.ToString();
+                ActualizarPedido();
+            }
         }
 
-        private void tf_Click(object sender, EventArgs e)
+        private void matazucarm_Click(object sender, EventArgs e)
         {
 
+            int cantidadAzucarM = int.Parse(lblm4.Text);
+            cantidadAzucarM++;
+            lblm4.Text = cantidadAzucarM.ToString();
+            ActualizarPedido();
         }
 
-        private void tc_Click(object sender, EventArgs e)
+        //-------------------------------------------------------------
+        //
+        private void splendamat_Click(object sender, EventArgs e)
         {
 
+            int cantidadSplenda = int.Parse(lblm5.Text);
+
+            if (cantidadSplenda > 0)
+            {
+                cantidadSplenda--;
+                lblm5.Text = cantidadSplenda.ToString();
+                ActualizarPedido();
+            }
         }
 
-        private void tlam_Click(object sender, EventArgs e)
+        private void matsplenda_Click(object sender, EventArgs e)
         {
+            int cantidadSplenda = int.Parse(lblm5.Text);
+            cantidadSplenda++;
+            lblm5.Text = cantidadSplenda.ToString();
 
+            ActualizarPedido();
         }
 
-        private void tldm_Click(object sender, EventArgs e)
+        //-------------------------------------------------------------
+        //
+        private void canelamat_Click(object sender, EventArgs e)
         {
 
+            int cantidadCanela = int.Parse(lblm6.Text);
+
+            if (cantidadCanela > 0)
+            {
+                cantidadCanela--;
+                lblm6.Text = cantidadCanela.ToString();
+                ActualizarPedido();
+
+            }
         }
 
-        private void tlem_Click(object sender, EventArgs e)
+        private void matcanela_Click(object sender, EventArgs e)
+        {
+ 
+            int cantidadCanela = int.Parse(lblm6.Text);
+            cantidadCanela++;
+            lblm6.Text = cantidadCanela.ToString();
+
+            ActualizarPedido();
+        }
+        //-------------------------------------------------------------
+        //Leche Entera -
+        private void enteramat_Click(object sender, EventArgs e)
         {
 
+            int cantidadLechee = int.Parse(lblm7.Text);
+
+            if (cantidadLechee > 0)
+            {
+                cantidadLechee--;
+                lblm7.Text = cantidadLechee.ToString();
+
+                ActualizarPedido();
+            }
         }
 
-        private void tcanm_Click(object sender, EventArgs e)
+        private void matentera_Click(object sender, EventArgs e)
         {
+  
+            int cantidadLechee = int.Parse(lblm7.Text);
 
+            cantidadLechee++;
+            lblm7.Text = cantidadLechee.ToString();
+
+            ActualizarPedido();
         }
 
-        private void tsm_Click(object sender, EventArgs e)
+        //-------------------------------------------------------------
+        //
+        private void deslmat_Click(object sender, EventArgs e)
         {
+ 
+            int cantidadLeched = int.Parse(lblm8.Text);
 
+            if (cantidadLeched > 0)
+            {
+                cantidadLeched--;
+                lblm8.Text = cantidadLeched.ToString();
+                ActualizarPedido();
+            }
         }
 
-        private void tazmm_Click(object sender, EventArgs e)
+        private void matdesl_Click(object sender, EventArgs e)
         {
 
+            int cantidadLeched = int.Parse(lblm8.Text);
+
+            cantidadLeched++;
+            lblm8.Text = cantidadLeched.ToString();
+
+            ActualizarPedido();
+        }
+        //-------------------------------------------------------------
+        //
+        private void almenmat_Click(object sender, EventArgs e)
+        {
+
+            int cantidadLechea = int.Parse(lblm9.Text);
+
+            if (cantidadLechea > 0)
+            {
+                cantidadLechea--;
+                lblm9.Text = cantidadLechea.ToString();
+
+                ActualizarPedido();
+            }
         }
 
-        private void tam_Click(object sender, EventArgs e)
+        private void matalmend_Click(object sender, EventArgs e)
         {
 
+            int cantidadLechea = int.Parse(lblm9.Text);
+
+            cantidadLechea++;
+            lblm9.Text = cantidadLechea.ToString();
+            ActualizarPedido();
         }
 
-        private void tfm_Click(object sender, EventArgs e)
+        //-------------------------------------------------------------
+        //
+        private void ActualizarPedido()
         {
+            if (miBebidaSeleccionada == null) return;
 
+            // Iniciamos con la bebida base
+            Bebida pedidoFinal = miBebidaSeleccionada;
+
+            // caliente
+            int cantCaliente = int.Parse(lblm1.Text);
+            for (int i = 0; i < cantCaliente; i++)
+            {
+                pedidoFinal = new Caliente(pedidoFinal);
+            }
+
+            // frío
+            int cantFrio = int.Parse(lblm2.Text);
+            for (int i = 0; i < cantFrio; i++)
+            {
+                pedidoFinal = new Fria(pedidoFinal);
+            }
+
+            // azúcar
+            int cantAzucar = int.Parse(lblm3.Text);
+            for (int i = 0; i < cantAzucar; i++)
+            {
+                pedidoFinal = new Azucar(pedidoFinal);
+            }
+
+            // azucar mascabado
+            int cantAzucarM = int.Parse(lblm4.Text);
+            for (int i = 0; i < cantAzucarM; i++)
+            {
+                pedidoFinal = new AzucarMascabado(pedidoFinal);
+            }
+
+            // splenda
+            int cantSplenda = int.Parse(lblm5.Text);
+            for (int i = 0; i < cantSplenda; i++)
+            {
+                pedidoFinal = new Splenda(pedidoFinal);
+            }
+
+            // canela
+            int cantCanela = int.Parse(lblm6.Text);
+            for (int i = 0; i < cantCanela; i++)
+            {
+                pedidoFinal = new Canela(pedidoFinal);
+            }
+
+            //Leche Entera
+            int cantLechee = int.Parse(lblm7.Text);
+            for (int i = 0; i < cantLechee; i++)
+            {
+                pedidoFinal = new LecheEntera(pedidoFinal);
+            }
+
+            // Leche Deslactosada
+            int cantLeched = int.Parse(lblm8.Text);
+            for (int i = 0; i < cantLeched; i++)
+            {
+                pedidoFinal = new LecheDeslactosada(pedidoFinal);
+            }
+
+            // Leche de Almendras
+            int cantLechea = int.Parse(lblm9.Text);
+            for (int i = 0; i < cantLechea; i++)
+            {
+                pedidoFinal = new LecheAlmendras(pedidoFinal);
+            }
         }
 
-        private void tcm_Click(object sender, EventArgs e)
+        private void btnPedidoMatcha_Click(object sender, EventArgs e)
         {
+            if (miBebidaSeleccionada == null) return;
 
+
+
+            // Leer las cantitades directamente de los label
+
+            int cantCaliente = int.Parse(lblm1.Text);
+            int cantFrio = int.Parse(lblm2.Text);
+            int cantAzucar = int.Parse(lblm3.Text);
+            int cantAzucarM = int.Parse(lblm4.Text);
+            int cantSplenda = int.Parse(lblm5.Text);
+            int cantCanela = int.Parse(lblm6.Text);
+            int cantLechee = int.Parse(lblm7.Text);
+            int cantLeched = int.Parse(lblm8.Text);
+            int cantLechea = int.Parse(lblm9.Text);
+
+
+            Bebida pedidoFinal = miBebidaSeleccionada;
+
+            //-----------------------------------------------------------------------------------
+
+            for (int i = 0; i < cantCaliente; i++)
+            {
+                pedidoFinal = new Caliente(pedidoFinal);
+            }
+
+            for (int i = 0; i < cantFrio; i++)
+            {
+                pedidoFinal = new Fria(pedidoFinal);
+            }
+
+            for (int i = 0; i < cantAzucar; i++)
+            {
+                pedidoFinal = new Azucar(pedidoFinal);
+            }
+
+            for (int i = 0; i < cantAzucarM; i++)
+            {
+                pedidoFinal = new AzucarMascabado(pedidoFinal);
+            }
+
+            for (int i = 0; i < cantSplenda; i++)
+
+            {
+                pedidoFinal = new Splenda(pedidoFinal);
+            }
+
+            for (int i = 0; i < cantCanela; i++)
+            {
+                pedidoFinal = new Canela(pedidoFinal);
+            }
+
+            for (int i = 0; i < cantLechee; i++)
+            {
+                pedidoFinal = new LecheEntera(pedidoFinal);
+            }
+
+            for (int i = 0; i < cantLeched; i++)
+            {
+                pedidoFinal = new LecheDeslactosada(pedidoFinal);
+            }
+
+            for (int i = 0; i < cantLechea; i++)
+            {
+                pedidoFinal = new LecheAlmendras(pedidoFinal);
+            }
+
+            double precioFinal = pedidoFinal.Costo();
+
+            //  ticket
+            string nombreBebidaBase = miBebidaSeleccionada.Descripcion();
+            string especificacionesLimpias = "";
+
+            //-------------------------------------------------------------------------------
+
+            // Si el usuario eligio, agregamos cuantos quiere 
+
+            if (cantCaliente > 0)
+            {
+                especificacionesLimpias += $"\n   , Caliente (x{cantCaliente})";
+            }
+            //Frio
+            if (cantFrio > 0)
+            {
+                especificacionesLimpias += $"\n   , Frío (x{cantFrio})";
+            }
+            //Azucar
+            if (cantAzucar > 0)
+            {
+                especificacionesLimpias += $"\n   , Azucar (x{cantAzucar})";
+            }
+            //Azucar Mascabado
+            if (cantAzucarM > 0)
+            {
+                especificacionesLimpias += $"\n   , Azucar Mascabado (x{cantAzucarM})";
+            }
+
+            //Splenda
+
+            if (cantSplenda > 0)
+            {
+                especificacionesLimpias += $"\n   , Splenda (x{cantSplenda})";
+            }
+
+            //Canela
+            if (cantCanela > 0)
+            {
+                especificacionesLimpias += $"\n   , Canela (x{cantCanela})";
+            }
+
+
+            //Leche Entera 
+            if (cantLechee > 0)
+            {
+                especificacionesLimpias += $"\n   , Leche Entera (x{cantLechee})";
+            }
+
+            //Leche Entera 
+
+            if (cantLeched > 0)
+            {
+                especificacionesLimpias += $"\n  , Leche deslactosada (x{cantLeched})";
+            }
+
+            //Leche Entera 
+
+            if (cantLechea > 0)
+            {
+                especificacionesLimpias += $"\n   , Leche de Almendras (x{cantLechea})";
+            }
+            pedido.Avanzar();
+            EstadoPedido.Text = pedido.ObtenerEstado();
+
+            // -------------------------------------------------------------------------
+
+            // Mostrar mensaje final
+
+            // -------------------------------------------------------------------------
+
+            MessageBox.Show($"¡Pedido Completado Exitosamente!\n\n" +
+                            $"Bebida: {nombreBebidaBase}\n" +
+                            $"Especificaciones:{especificacionesLimpias}\n\n" +
+                            $"Total a Pagar: ${precioFinal.ToString("N2", System.Globalization.CultureInfo.InvariantCulture)}",
+                            "Honey Cloud Coffee",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Information);
+
+            // Regresamos el texto labels a "0"
+
+            lblm1.Text = "0";  //caliente   
+            lblm2.Text = "0";  //frio
+            lblm3.Text = "0";  //azucar
+            lblm4.Text = "0"; //azucarm
+            lblm5.Text = "0";  //splenda
+            lblm6.Text = "0"; //canela
+            lblm7.Text = "0";  //Leche Entera
+            lblm8.Text = "0";  //Leche Deslactosada
+            lblm9.Text = "0";   //Leche de Almendras
+
+            this.pedido = new Pedido(miBebidaSeleccionada);
+            EstadoPedido.Text = pedido.ObtenerEstado();
+
+            ActualizarPedido();
+        }
+
+        private void EstadoPedido_Click(object sender, EventArgs e)
+        {
+            pedido.Avanzar();
+            MessageBox.Show($"Estado actual: {pedido.ObtenerEstado()}",
+                            "Honey Cloud Coffee",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Information);
         }
     }
 }
