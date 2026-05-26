@@ -42,86 +42,86 @@
             this.btnVolver = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.lbl1 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.lblp1 = new System.Windows.Forms.Label();
+            this.lblp2 = new System.Windows.Forms.Label();
+            this.lblp3 = new System.Windows.Forms.Label();
+            this.lblp4 = new System.Windows.Forms.Label();
+            this.lblp5 = new System.Windows.Forms.Label();
+            this.lblp6 = new System.Windows.Forms.Label();
+            this.lblp7 = new System.Windows.Forms.Label();
+            this.lblp8 = new System.Windows.Forms.Label();
+            this.lblp9 = new System.Windows.Forms.Label();
+            this.calientecap = new System.Windows.Forms.PictureBox();
+            this.capalm = new System.Windows.Forms.PictureBox();
+            this.capdes = new System.Windows.Forms.PictureBox();
+            this.capentera = new System.Windows.Forms.PictureBox();
+            this.capcanela = new System.Windows.Forms.PictureBox();
+            this.capsplenda = new System.Windows.Forms.PictureBox();
+            this.azucarcapm = new System.Windows.Forms.PictureBox();
+            this.capazucar = new System.Windows.Forms.PictureBox();
+            this.capfrio = new System.Windows.Forms.PictureBox();
+            this.capcaliente = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.friocap = new System.Windows.Forms.PictureBox();
+            this.azucarcap = new System.Windows.Forms.PictureBox();
+            this.azucarmcap = new System.Windows.Forms.PictureBox();
+            this.splendacap = new System.Windows.Forms.PictureBox();
+            this.canelacap = new System.Windows.Forms.PictureBox();
+            this.enteracap = new System.Windows.Forms.PictureBox();
+            this.deslcap = new System.Windows.Forms.PictureBox();
+            this.almcap = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.calientecap)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.capalm)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.capdes)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.capentera)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.capcanela)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.capsplenda)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.azucarcapm)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.capazucar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.capfrio)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.capcaliente)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.friocap)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.azucarcap)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.azucarmcap)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splendacap)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.canelacap)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enteracap)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.deslcap)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.almcap)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
-            this.panel1.Controls.Add(this.pictureBox18);
-            this.panel1.Controls.Add(this.pictureBox17);
-            this.panel1.Controls.Add(this.pictureBox16);
-            this.panel1.Controls.Add(this.pictureBox15);
-            this.panel1.Controls.Add(this.pictureBox14);
-            this.panel1.Controls.Add(this.pictureBox13);
-            this.panel1.Controls.Add(this.pictureBox12);
-            this.panel1.Controls.Add(this.pictureBox11);
-            this.panel1.Controls.Add(this.label17);
-            this.panel1.Controls.Add(this.label16);
-            this.panel1.Controls.Add(this.label15);
-            this.panel1.Controls.Add(this.label14);
-            this.panel1.Controls.Add(this.label13);
-            this.panel1.Controls.Add(this.label12);
-            this.panel1.Controls.Add(this.label11);
-            this.panel1.Controls.Add(this.label10);
-            this.panel1.Controls.Add(this.lbl1);
-            this.panel1.Controls.Add(this.pictureBox19);
-            this.panel1.Controls.Add(this.pictureBox10);
-            this.panel1.Controls.Add(this.pictureBox9);
-            this.panel1.Controls.Add(this.pictureBox8);
-            this.panel1.Controls.Add(this.pictureBox7);
-            this.panel1.Controls.Add(this.pictureBox6);
-            this.panel1.Controls.Add(this.pictureBox5);
-            this.panel1.Controls.Add(this.pictureBox4);
-            this.panel1.Controls.Add(this.pictureBox3);
-            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.almcap);
+            this.panel1.Controls.Add(this.deslcap);
+            this.panel1.Controls.Add(this.enteracap);
+            this.panel1.Controls.Add(this.canelacap);
+            this.panel1.Controls.Add(this.splendacap);
+            this.panel1.Controls.Add(this.azucarmcap);
+            this.panel1.Controls.Add(this.azucarcap);
+            this.panel1.Controls.Add(this.friocap);
+            this.panel1.Controls.Add(this.lblp9);
+            this.panel1.Controls.Add(this.lblp8);
+            this.panel1.Controls.Add(this.lblp7);
+            this.panel1.Controls.Add(this.lblp6);
+            this.panel1.Controls.Add(this.lblp5);
+            this.panel1.Controls.Add(this.lblp4);
+            this.panel1.Controls.Add(this.lblp3);
+            this.panel1.Controls.Add(this.lblp2);
+            this.panel1.Controls.Add(this.lblp1);
+            this.panel1.Controls.Add(this.calientecap);
+            this.panel1.Controls.Add(this.capalm);
+            this.panel1.Controls.Add(this.capdes);
+            this.panel1.Controls.Add(this.capentera);
+            this.panel1.Controls.Add(this.capcanela);
+            this.panel1.Controls.Add(this.capsplenda);
+            this.panel1.Controls.Add(this.azucarcapm);
+            this.panel1.Controls.Add(this.capazucar);
+            this.panel1.Controls.Add(this.capfrio);
+            this.panel1.Controls.Add(this.capcaliente);
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label7);
@@ -287,196 +287,196 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // lbl1
+            // lblp1
             // 
-            this.lbl1.AutoSize = true;
-            this.lbl1.Location = new System.Drawing.Point(344, 10);
-            this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(14, 16);
-            this.lbl1.TabIndex = 37;
-            this.lbl1.Text = "0";
+            this.lblp1.AutoSize = true;
+            this.lblp1.Location = new System.Drawing.Point(344, 10);
+            this.lblp1.Name = "lblp1";
+            this.lblp1.Size = new System.Drawing.Size(14, 16);
+            this.lblp1.TabIndex = 37;
+            this.lblp1.Text = "0";
             // 
-            // label10
+            // lblp2
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(344, 46);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(14, 16);
-            this.label10.TabIndex = 38;
-            this.label10.Text = "0";
+            this.lblp2.AutoSize = true;
+            this.lblp2.Location = new System.Drawing.Point(344, 46);
+            this.lblp2.Name = "lblp2";
+            this.lblp2.Size = new System.Drawing.Size(14, 16);
+            this.lblp2.TabIndex = 38;
+            this.lblp2.Text = "0";
             // 
-            // label11
+            // lblp3
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(344, 78);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(14, 16);
-            this.label11.TabIndex = 39;
-            this.label11.Text = "0";
+            this.lblp3.AutoSize = true;
+            this.lblp3.Location = new System.Drawing.Point(344, 78);
+            this.lblp3.Name = "lblp3";
+            this.lblp3.Size = new System.Drawing.Size(14, 16);
+            this.lblp3.TabIndex = 39;
+            this.lblp3.Text = "0";
             // 
-            // label12
+            // lblp4
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(344, 120);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(14, 16);
-            this.label12.TabIndex = 40;
-            this.label12.Text = "0";
+            this.lblp4.AutoSize = true;
+            this.lblp4.Location = new System.Drawing.Point(344, 120);
+            this.lblp4.Name = "lblp4";
+            this.lblp4.Size = new System.Drawing.Size(14, 16);
+            this.lblp4.TabIndex = 40;
+            this.lblp4.Text = "0";
             // 
-            // label13
+            // lblp5
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(344, 155);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(14, 16);
-            this.label13.TabIndex = 41;
-            this.label13.Text = "0";
+            this.lblp5.AutoSize = true;
+            this.lblp5.Location = new System.Drawing.Point(344, 155);
+            this.lblp5.Name = "lblp5";
+            this.lblp5.Size = new System.Drawing.Size(14, 16);
+            this.lblp5.TabIndex = 41;
+            this.lblp5.Text = "0";
             // 
-            // label14
+            // lblp6
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(344, 188);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(14, 16);
-            this.label14.TabIndex = 42;
-            this.label14.Text = "0";
+            this.lblp6.AutoSize = true;
+            this.lblp6.Location = new System.Drawing.Point(344, 188);
+            this.lblp6.Name = "lblp6";
+            this.lblp6.Size = new System.Drawing.Size(14, 16);
+            this.lblp6.TabIndex = 42;
+            this.lblp6.Text = "0";
             // 
-            // label15
+            // lblp7
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(344, 221);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(14, 16);
-            this.label15.TabIndex = 43;
-            this.label15.Text = "0";
+            this.lblp7.AutoSize = true;
+            this.lblp7.Location = new System.Drawing.Point(344, 221);
+            this.lblp7.Name = "lblp7";
+            this.lblp7.Size = new System.Drawing.Size(14, 16);
+            this.lblp7.TabIndex = 43;
+            this.lblp7.Text = "0";
             // 
-            // label16
+            // lblp8
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(344, 260);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(14, 16);
-            this.label16.TabIndex = 44;
-            this.label16.Text = "0";
+            this.lblp8.AutoSize = true;
+            this.lblp8.Location = new System.Drawing.Point(344, 260);
+            this.lblp8.Name = "lblp8";
+            this.lblp8.Size = new System.Drawing.Size(14, 16);
+            this.lblp8.TabIndex = 44;
+            this.lblp8.Text = "0";
             // 
-            // label17
+            // lblp9
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(344, 293);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(14, 16);
-            this.label17.TabIndex = 45;
-            this.label17.Text = "0";
+            this.lblp9.AutoSize = true;
+            this.lblp9.Location = new System.Drawing.Point(344, 293);
+            this.lblp9.Name = "lblp9";
+            this.lblp9.Size = new System.Drawing.Size(14, 16);
+            this.lblp9.TabIndex = 45;
+            this.lblp9.Text = "0";
             // 
-            // pictureBox19
+            // calientecap
             // 
-            this.pictureBox19.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
-            this.pictureBox19.Location = new System.Drawing.Point(285, 2);
-            this.pictureBox19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox19.TabIndex = 28;
-            this.pictureBox19.TabStop = false;
+            this.calientecap.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
+            this.calientecap.Location = new System.Drawing.Point(285, 2);
+            this.calientecap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.calientecap.Name = "calientecap";
+            this.calientecap.Size = new System.Drawing.Size(38, 30);
+            this.calientecap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.calientecap.TabIndex = 28;
+            this.calientecap.TabStop = false;
             // 
-            // pictureBox10
+            // capalm
             // 
-            this.pictureBox10.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox10.Location = new System.Drawing.Point(376, 281);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 27;
-            this.pictureBox10.TabStop = false;
+            this.capalm.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.capalm.Location = new System.Drawing.Point(376, 281);
+            this.capalm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.capalm.Name = "capalm";
+            this.capalm.Size = new System.Drawing.Size(38, 30);
+            this.capalm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.capalm.TabIndex = 27;
+            this.capalm.TabStop = false;
             // 
-            // pictureBox9
+            // capdes
             // 
-            this.pictureBox9.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox9.Location = new System.Drawing.Point(376, 246);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 25;
-            this.pictureBox9.TabStop = false;
+            this.capdes.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.capdes.Location = new System.Drawing.Point(376, 246);
+            this.capdes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.capdes.Name = "capdes";
+            this.capdes.Size = new System.Drawing.Size(38, 30);
+            this.capdes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.capdes.TabIndex = 25;
+            this.capdes.TabStop = false;
             // 
-            // pictureBox8
+            // capentera
             // 
-            this.pictureBox8.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox8.Location = new System.Drawing.Point(376, 211);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 24;
-            this.pictureBox8.TabStop = false;
+            this.capentera.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.capentera.Location = new System.Drawing.Point(376, 211);
+            this.capentera.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.capentera.Name = "capentera";
+            this.capentera.Size = new System.Drawing.Size(38, 30);
+            this.capentera.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.capentera.TabIndex = 24;
+            this.capentera.TabStop = false;
             // 
-            // pictureBox7
+            // capcanela
             // 
-            this.pictureBox7.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox7.Location = new System.Drawing.Point(376, 176);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 23;
-            this.pictureBox7.TabStop = false;
+            this.capcanela.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.capcanela.Location = new System.Drawing.Point(376, 176);
+            this.capcanela.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.capcanela.Name = "capcanela";
+            this.capcanela.Size = new System.Drawing.Size(38, 30);
+            this.capcanela.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.capcanela.TabIndex = 23;
+            this.capcanela.TabStop = false;
             // 
-            // pictureBox6
+            // capsplenda
             // 
-            this.pictureBox6.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox6.Location = new System.Drawing.Point(376, 141);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 22;
-            this.pictureBox6.TabStop = false;
+            this.capsplenda.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.capsplenda.Location = new System.Drawing.Point(376, 141);
+            this.capsplenda.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.capsplenda.Name = "capsplenda";
+            this.capsplenda.Size = new System.Drawing.Size(38, 30);
+            this.capsplenda.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.capsplenda.TabIndex = 22;
+            this.capsplenda.TabStop = false;
             // 
-            // pictureBox5
+            // azucarcapm
             // 
-            this.pictureBox5.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox5.Location = new System.Drawing.Point(376, 106);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 21;
-            this.pictureBox5.TabStop = false;
+            this.azucarcapm.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.azucarcapm.Location = new System.Drawing.Point(376, 106);
+            this.azucarcapm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.azucarcapm.Name = "azucarcapm";
+            this.azucarcapm.Size = new System.Drawing.Size(38, 30);
+            this.azucarcapm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.azucarcapm.TabIndex = 21;
+            this.azucarcapm.TabStop = false;
             // 
-            // pictureBox4
+            // capazucar
             // 
-            this.pictureBox4.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox4.Location = new System.Drawing.Point(376, 72);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 20;
-            this.pictureBox4.TabStop = false;
+            this.capazucar.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.capazucar.Location = new System.Drawing.Point(376, 72);
+            this.capazucar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.capazucar.Name = "capazucar";
+            this.capazucar.Size = new System.Drawing.Size(38, 30);
+            this.capazucar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.capazucar.TabIndex = 20;
+            this.capazucar.TabStop = false;
             // 
-            // pictureBox3
+            // capfrio
             // 
-            this.pictureBox3.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox3.Location = new System.Drawing.Point(376, 38);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 19;
-            this.pictureBox3.TabStop = false;
+            this.capfrio.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.capfrio.Location = new System.Drawing.Point(376, 38);
+            this.capfrio.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.capfrio.Name = "capfrio";
+            this.capfrio.Size = new System.Drawing.Size(38, 30);
+            this.capfrio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.capfrio.TabIndex = 19;
+            this.capfrio.TabStop = false;
             // 
-            // pictureBox2
+            // capcaliente
             // 
-            this.pictureBox2.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox2.Location = new System.Drawing.Point(376, 2);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 18;
-            this.pictureBox2.TabStop = false;
+            this.capcaliente.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.capcaliente.Location = new System.Drawing.Point(376, 2);
+            this.capcaliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.capcaliente.Name = "capcaliente";
+            this.capcaliente.Size = new System.Drawing.Size(38, 30);
+            this.capcaliente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.capcaliente.TabIndex = 18;
+            this.capcaliente.TabStop = false;
             // 
             // pictureBox1
             // 
@@ -489,93 +489,93 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox11
+            // friocap
             // 
-            this.pictureBox11.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
-            this.pictureBox11.Location = new System.Drawing.Point(285, 38);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 46;
-            this.pictureBox11.TabStop = false;
+            this.friocap.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
+            this.friocap.Location = new System.Drawing.Point(285, 38);
+            this.friocap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.friocap.Name = "friocap";
+            this.friocap.Size = new System.Drawing.Size(38, 30);
+            this.friocap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.friocap.TabIndex = 46;
+            this.friocap.TabStop = false;
             // 
-            // pictureBox12
+            // azucarcap
             // 
-            this.pictureBox12.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
-            this.pictureBox12.Location = new System.Drawing.Point(285, 72);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 47;
-            this.pictureBox12.TabStop = false;
+            this.azucarcap.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
+            this.azucarcap.Location = new System.Drawing.Point(285, 72);
+            this.azucarcap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.azucarcap.Name = "azucarcap";
+            this.azucarcap.Size = new System.Drawing.Size(38, 30);
+            this.azucarcap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.azucarcap.TabIndex = 47;
+            this.azucarcap.TabStop = false;
             // 
-            // pictureBox13
+            // azucarmcap
             // 
-            this.pictureBox13.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
-            this.pictureBox13.Location = new System.Drawing.Point(285, 106);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 48;
-            this.pictureBox13.TabStop = false;
+            this.azucarmcap.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
+            this.azucarmcap.Location = new System.Drawing.Point(285, 106);
+            this.azucarmcap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.azucarmcap.Name = "azucarmcap";
+            this.azucarmcap.Size = new System.Drawing.Size(38, 30);
+            this.azucarmcap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.azucarmcap.TabIndex = 48;
+            this.azucarmcap.TabStop = false;
             // 
-            // pictureBox14
+            // splendacap
             // 
-            this.pictureBox14.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
-            this.pictureBox14.Location = new System.Drawing.Point(285, 141);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox14.TabIndex = 49;
-            this.pictureBox14.TabStop = false;
+            this.splendacap.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
+            this.splendacap.Location = new System.Drawing.Point(285, 141);
+            this.splendacap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.splendacap.Name = "splendacap";
+            this.splendacap.Size = new System.Drawing.Size(38, 30);
+            this.splendacap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.splendacap.TabIndex = 49;
+            this.splendacap.TabStop = false;
             // 
-            // pictureBox15
+            // canelacap
             // 
-            this.pictureBox15.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
-            this.pictureBox15.Location = new System.Drawing.Point(285, 176);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox15.TabIndex = 50;
-            this.pictureBox15.TabStop = false;
+            this.canelacap.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
+            this.canelacap.Location = new System.Drawing.Point(285, 176);
+            this.canelacap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.canelacap.Name = "canelacap";
+            this.canelacap.Size = new System.Drawing.Size(38, 30);
+            this.canelacap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.canelacap.TabIndex = 50;
+            this.canelacap.TabStop = false;
             // 
-            // pictureBox16
+            // enteracap
             // 
-            this.pictureBox16.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
-            this.pictureBox16.Location = new System.Drawing.Point(285, 211);
-            this.pictureBox16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox16.TabIndex = 51;
-            this.pictureBox16.TabStop = false;
+            this.enteracap.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
+            this.enteracap.Location = new System.Drawing.Point(285, 211);
+            this.enteracap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.enteracap.Name = "enteracap";
+            this.enteracap.Size = new System.Drawing.Size(38, 30);
+            this.enteracap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.enteracap.TabIndex = 51;
+            this.enteracap.TabStop = false;
             // 
-            // pictureBox17
+            // deslcap
             // 
-            this.pictureBox17.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
-            this.pictureBox17.Location = new System.Drawing.Point(285, 247);
-            this.pictureBox17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox17.TabIndex = 52;
-            this.pictureBox17.TabStop = false;
+            this.deslcap.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
+            this.deslcap.Location = new System.Drawing.Point(285, 247);
+            this.deslcap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.deslcap.Name = "deslcap";
+            this.deslcap.Size = new System.Drawing.Size(38, 30);
+            this.deslcap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.deslcap.TabIndex = 52;
+            this.deslcap.TabStop = false;
             // 
-            // pictureBox18
+            // almcap
             // 
-            this.pictureBox18.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
-            this.pictureBox18.Location = new System.Drawing.Point(285, 281);
-            this.pictureBox18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox18.TabIndex = 53;
-            this.pictureBox18.TabStop = false;
+            this.almcap.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
+            this.almcap.Location = new System.Drawing.Point(285, 281);
+            this.almcap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.almcap.Name = "almcap";
+            this.almcap.Size = new System.Drawing.Size(38, 30);
+            this.almcap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.almcap.TabIndex = 53;
+            this.almcap.TabStop = false;
             // 
             // CapuccinoExtras
             // 
@@ -594,25 +594,25 @@
             this.Text = "Capuccino";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.calientecap)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.capalm)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.capdes)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.capentera)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.capcanela)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.capsplenda)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.azucarcapm)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.capazucar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.capfrio)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.capcaliente)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.friocap)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.azucarcap)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.azucarmcap)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splendacap)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.canelacap)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enteracap)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.deslcap)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.almcap)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -621,14 +621,14 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox capdes;
+        private System.Windows.Forms.PictureBox capentera;
+        private System.Windows.Forms.PictureBox capcanela;
+        private System.Windows.Forms.PictureBox capsplenda;
+        private System.Windows.Forms.PictureBox azucarcapm;
+        private System.Windows.Forms.PictureBox capazucar;
+        private System.Windows.Forms.PictureBox capfrio;
+        private System.Windows.Forms.PictureBox capcaliente;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
@@ -638,27 +638,27 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox capalm;
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label lbl1;
-        private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.PictureBox pictureBox17;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.Label lblp1;
+        private System.Windows.Forms.PictureBox calientecap;
+        private System.Windows.Forms.Label lblp9;
+        private System.Windows.Forms.Label lblp8;
+        private System.Windows.Forms.Label lblp7;
+        private System.Windows.Forms.Label lblp6;
+        private System.Windows.Forms.Label lblp5;
+        private System.Windows.Forms.Label lblp4;
+        private System.Windows.Forms.Label lblp3;
+        private System.Windows.Forms.Label lblp2;
+        private System.Windows.Forms.PictureBox almcap;
+        private System.Windows.Forms.PictureBox deslcap;
+        private System.Windows.Forms.PictureBox enteracap;
+        private System.Windows.Forms.PictureBox canelacap;
+        private System.Windows.Forms.PictureBox splendacap;
+        private System.Windows.Forms.PictureBox azucarmcap;
+        private System.Windows.Forms.PictureBox azucarcap;
+        private System.Windows.Forms.PictureBox friocap;
     }
 }

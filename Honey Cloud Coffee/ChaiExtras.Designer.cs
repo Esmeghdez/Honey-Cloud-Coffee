@@ -31,36 +31,36 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChaiExtras));
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnVolver = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnPedidoc = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.lbl1 = new System.Windows.Forms.Label();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.lechealm = new System.Windows.Forms.PictureBox();
+            this.lechedes = new System.Windows.Forms.PictureBox();
+            this.lecheen = new System.Windows.Forms.PictureBox();
+            this.canelac = new System.Windows.Forms.PictureBox();
+            this.splendac = new System.Windows.Forms.PictureBox();
+            this.azucarmac = new System.Windows.Forms.PictureBox();
+            this.azucarc = new System.Windows.Forms.PictureBox();
+            this.frioc = new System.Windows.Forms.PictureBox();
+            this.lblc9 = new System.Windows.Forms.Label();
+            this.lblc8 = new System.Windows.Forms.Label();
+            this.lblc7 = new System.Windows.Forms.Label();
+            this.lblc6 = new System.Windows.Forms.Label();
+            this.lblc5 = new System.Windows.Forms.Label();
+            this.lblc4 = new System.Windows.Forms.Label();
+            this.lblc3 = new System.Windows.Forms.Label();
+            this.lblc2 = new System.Windows.Forms.Label();
+            this.lblc1 = new System.Windows.Forms.Label();
+            this.calientec = new System.Windows.Forms.PictureBox();
+            this.lechealmm = new System.Windows.Forms.PictureBox();
+            this.lechedesm = new System.Windows.Forms.PictureBox();
+            this.lecheenm = new System.Windows.Forms.PictureBox();
+            this.canelam = new System.Windows.Forms.PictureBox();
+            this.splendam = new System.Windows.Forms.PictureBox();
+            this.azucarmscm = new System.Windows.Forms.PictureBox();
+            this.azucarmc = new System.Windows.Forms.PictureBox();
+            this.friocm = new System.Windows.Forms.PictureBox();
+            this.calientecm = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -72,56 +72,56 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lechealm)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lechedes)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lecheen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.canelac)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splendac)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.azucarmac)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.azucarc)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.frioc)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.calientec)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lechealmm)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lechedesm)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lecheenm)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.canelam)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splendam)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.azucarmscm)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.azucarmc)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.friocm)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.calientecm)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
-            this.panel1.Controls.Add(this.pictureBox18);
-            this.panel1.Controls.Add(this.pictureBox17);
-            this.panel1.Controls.Add(this.pictureBox16);
-            this.panel1.Controls.Add(this.pictureBox15);
-            this.panel1.Controls.Add(this.pictureBox14);
-            this.panel1.Controls.Add(this.pictureBox13);
-            this.panel1.Controls.Add(this.pictureBox12);
-            this.panel1.Controls.Add(this.pictureBox11);
-            this.panel1.Controls.Add(this.label17);
-            this.panel1.Controls.Add(this.label16);
-            this.panel1.Controls.Add(this.label15);
-            this.panel1.Controls.Add(this.label14);
-            this.panel1.Controls.Add(this.label13);
-            this.panel1.Controls.Add(this.label12);
-            this.panel1.Controls.Add(this.label11);
-            this.panel1.Controls.Add(this.label10);
-            this.panel1.Controls.Add(this.lbl1);
-            this.panel1.Controls.Add(this.pictureBox19);
-            this.panel1.Controls.Add(this.pictureBox10);
-            this.panel1.Controls.Add(this.pictureBox9);
-            this.panel1.Controls.Add(this.pictureBox8);
-            this.panel1.Controls.Add(this.pictureBox7);
-            this.panel1.Controls.Add(this.pictureBox6);
-            this.panel1.Controls.Add(this.pictureBox5);
-            this.panel1.Controls.Add(this.pictureBox4);
-            this.panel1.Controls.Add(this.pictureBox3);
-            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.lechealm);
+            this.panel1.Controls.Add(this.lechedes);
+            this.panel1.Controls.Add(this.lecheen);
+            this.panel1.Controls.Add(this.canelac);
+            this.panel1.Controls.Add(this.splendac);
+            this.panel1.Controls.Add(this.azucarmac);
+            this.panel1.Controls.Add(this.azucarc);
+            this.panel1.Controls.Add(this.frioc);
+            this.panel1.Controls.Add(this.lblc9);
+            this.panel1.Controls.Add(this.lblc8);
+            this.panel1.Controls.Add(this.lblc7);
+            this.panel1.Controls.Add(this.lblc6);
+            this.panel1.Controls.Add(this.lblc5);
+            this.panel1.Controls.Add(this.lblc4);
+            this.panel1.Controls.Add(this.lblc3);
+            this.panel1.Controls.Add(this.lblc2);
+            this.panel1.Controls.Add(this.lblc1);
+            this.panel1.Controls.Add(this.calientec);
+            this.panel1.Controls.Add(this.lechealmm);
+            this.panel1.Controls.Add(this.lechedesm);
+            this.panel1.Controls.Add(this.lecheenm);
+            this.panel1.Controls.Add(this.canelam);
+            this.panel1.Controls.Add(this.splendam);
+            this.panel1.Controls.Add(this.azucarmscm);
+            this.panel1.Controls.Add(this.azucarmc);
+            this.panel1.Controls.Add(this.friocm);
+            this.panel1.Controls.Add(this.calientecm);
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label7);
@@ -151,18 +151,19 @@
             this.btnVolver.UseVisualStyleBackColor = false;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
-            // button2
+            // btnPedidoc
             // 
-            this.button2.BackColor = System.Drawing.Color.Linen;
-            this.button2.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
-            this.button2.Location = new System.Drawing.Point(830, 483);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(177, 34);
-            this.button2.TabIndex = 32;
-            this.button2.Text = "Terminar pedido";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnPedidoc.BackColor = System.Drawing.Color.Linen;
+            this.btnPedidoc.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPedidoc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(28)))), ((int)(((byte)(24)))));
+            this.btnPedidoc.Location = new System.Drawing.Point(830, 483);
+            this.btnPedidoc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnPedidoc.Name = "btnPedidoc";
+            this.btnPedidoc.Size = new System.Drawing.Size(177, 34);
+            this.btnPedidoc.TabIndex = 32;
+            this.btnPedidoc.Text = "Terminar pedido";
+            this.btnPedidoc.UseVisualStyleBackColor = false;
+            this.btnPedidoc.Click += new System.EventHandler(this.btnPedidoc_Click);
             // 
             // button1
             // 
@@ -189,284 +190,302 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox18
+            // lechealm
             // 
-            this.pictureBox18.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
-            this.pictureBox18.Location = new System.Drawing.Point(281, 282);
-            this.pictureBox18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox18.TabIndex = 89;
-            this.pictureBox18.TabStop = false;
+            this.lechealm.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
+            this.lechealm.Location = new System.Drawing.Point(281, 282);
+            this.lechealm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lechealm.Name = "lechealm";
+            this.lechealm.Size = new System.Drawing.Size(38, 30);
+            this.lechealm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.lechealm.TabIndex = 89;
+            this.lechealm.TabStop = false;
+            this.lechealm.Click += new System.EventHandler(this.lechealm_Click);
             // 
-            // pictureBox17
+            // lechedes
             // 
-            this.pictureBox17.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
-            this.pictureBox17.Location = new System.Drawing.Point(281, 248);
-            this.pictureBox17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox17.TabIndex = 88;
-            this.pictureBox17.TabStop = false;
+            this.lechedes.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
+            this.lechedes.Location = new System.Drawing.Point(281, 248);
+            this.lechedes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lechedes.Name = "lechedes";
+            this.lechedes.Size = new System.Drawing.Size(38, 30);
+            this.lechedes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.lechedes.TabIndex = 88;
+            this.lechedes.TabStop = false;
+            this.lechedes.Click += new System.EventHandler(this.lechedes_Click);
             // 
-            // pictureBox16
+            // lecheen
             // 
-            this.pictureBox16.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
-            this.pictureBox16.Location = new System.Drawing.Point(281, 212);
-            this.pictureBox16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox16.TabIndex = 87;
-            this.pictureBox16.TabStop = false;
+            this.lecheen.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
+            this.lecheen.Location = new System.Drawing.Point(281, 212);
+            this.lecheen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lecheen.Name = "lecheen";
+            this.lecheen.Size = new System.Drawing.Size(38, 30);
+            this.lecheen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.lecheen.TabIndex = 87;
+            this.lecheen.TabStop = false;
+            this.lecheen.Click += new System.EventHandler(this.lecheen_Click);
             // 
-            // pictureBox15
+            // canelac
             // 
-            this.pictureBox15.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
-            this.pictureBox15.Location = new System.Drawing.Point(281, 177);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox15.TabIndex = 86;
-            this.pictureBox15.TabStop = false;
+            this.canelac.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
+            this.canelac.Location = new System.Drawing.Point(281, 177);
+            this.canelac.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.canelac.Name = "canelac";
+            this.canelac.Size = new System.Drawing.Size(38, 30);
+            this.canelac.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.canelac.TabIndex = 86;
+            this.canelac.TabStop = false;
+            this.canelac.Click += new System.EventHandler(this.canelac_Click);
             // 
-            // pictureBox14
+            // splendac
             // 
-            this.pictureBox14.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
-            this.pictureBox14.Location = new System.Drawing.Point(281, 142);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox14.TabIndex = 85;
-            this.pictureBox14.TabStop = false;
+            this.splendac.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
+            this.splendac.Location = new System.Drawing.Point(281, 142);
+            this.splendac.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.splendac.Name = "splendac";
+            this.splendac.Size = new System.Drawing.Size(38, 30);
+            this.splendac.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.splendac.TabIndex = 85;
+            this.splendac.TabStop = false;
+            this.splendac.Click += new System.EventHandler(this.splendac_Click);
             // 
-            // pictureBox13
+            // azucarmac
             // 
-            this.pictureBox13.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
-            this.pictureBox13.Location = new System.Drawing.Point(281, 107);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 84;
-            this.pictureBox13.TabStop = false;
+            this.azucarmac.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
+            this.azucarmac.Location = new System.Drawing.Point(281, 107);
+            this.azucarmac.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.azucarmac.Name = "azucarmac";
+            this.azucarmac.Size = new System.Drawing.Size(38, 30);
+            this.azucarmac.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.azucarmac.TabIndex = 84;
+            this.azucarmac.TabStop = false;
+            this.azucarmac.Click += new System.EventHandler(this.azucarmac_Click);
             // 
-            // pictureBox12
+            // azucarc
             // 
-            this.pictureBox12.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
-            this.pictureBox12.Location = new System.Drawing.Point(281, 73);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 83;
-            this.pictureBox12.TabStop = false;
+            this.azucarc.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
+            this.azucarc.Location = new System.Drawing.Point(281, 73);
+            this.azucarc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.azucarc.Name = "azucarc";
+            this.azucarc.Size = new System.Drawing.Size(38, 30);
+            this.azucarc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.azucarc.TabIndex = 83;
+            this.azucarc.TabStop = false;
+            this.azucarc.Click += new System.EventHandler(this.azucarc_Click);
             // 
-            // pictureBox11
+            // frioc
             // 
-            this.pictureBox11.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
-            this.pictureBox11.Location = new System.Drawing.Point(281, 39);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 82;
-            this.pictureBox11.TabStop = false;
+            this.frioc.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
+            this.frioc.Location = new System.Drawing.Point(281, 39);
+            this.frioc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.frioc.Name = "frioc";
+            this.frioc.Size = new System.Drawing.Size(38, 30);
+            this.frioc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.frioc.TabIndex = 82;
+            this.frioc.TabStop = false;
+            this.frioc.Click += new System.EventHandler(this.frioc_Click);
             // 
-            // label17
+            // lblc9
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(340, 294);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(14, 16);
-            this.label17.TabIndex = 81;
-            this.label17.Text = "0";
+            this.lblc9.AutoSize = true;
+            this.lblc9.Location = new System.Drawing.Point(340, 294);
+            this.lblc9.Name = "lblc9";
+            this.lblc9.Size = new System.Drawing.Size(14, 16);
+            this.lblc9.TabIndex = 81;
+            this.lblc9.Text = "0";
             // 
-            // label16
+            // lblc8
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(340, 261);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(14, 16);
-            this.label16.TabIndex = 80;
-            this.label16.Text = "0";
+            this.lblc8.AutoSize = true;
+            this.lblc8.Location = new System.Drawing.Point(340, 261);
+            this.lblc8.Name = "lblc8";
+            this.lblc8.Size = new System.Drawing.Size(14, 16);
+            this.lblc8.TabIndex = 80;
+            this.lblc8.Text = "0";
             // 
-            // label15
+            // lblc7
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(340, 222);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(14, 16);
-            this.label15.TabIndex = 79;
-            this.label15.Text = "0";
+            this.lblc7.AutoSize = true;
+            this.lblc7.Location = new System.Drawing.Point(340, 222);
+            this.lblc7.Name = "lblc7";
+            this.lblc7.Size = new System.Drawing.Size(14, 16);
+            this.lblc7.TabIndex = 79;
+            this.lblc7.Text = "0";
             // 
-            // label14
+            // lblc6
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(340, 189);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(14, 16);
-            this.label14.TabIndex = 78;
-            this.label14.Text = "0";
+            this.lblc6.AutoSize = true;
+            this.lblc6.Location = new System.Drawing.Point(340, 189);
+            this.lblc6.Name = "lblc6";
+            this.lblc6.Size = new System.Drawing.Size(14, 16);
+            this.lblc6.TabIndex = 78;
+            this.lblc6.Text = "0";
             // 
-            // label13
+            // lblc5
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(340, 156);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(14, 16);
-            this.label13.TabIndex = 77;
-            this.label13.Text = "0";
+            this.lblc5.AutoSize = true;
+            this.lblc5.Location = new System.Drawing.Point(340, 156);
+            this.lblc5.Name = "lblc5";
+            this.lblc5.Size = new System.Drawing.Size(14, 16);
+            this.lblc5.TabIndex = 77;
+            this.lblc5.Text = "0";
             // 
-            // label12
+            // lblc4
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(340, 121);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(14, 16);
-            this.label12.TabIndex = 76;
-            this.label12.Text = "0";
+            this.lblc4.AutoSize = true;
+            this.lblc4.Location = new System.Drawing.Point(340, 121);
+            this.lblc4.Name = "lblc4";
+            this.lblc4.Size = new System.Drawing.Size(14, 16);
+            this.lblc4.TabIndex = 76;
+            this.lblc4.Text = "0";
             // 
-            // label11
+            // lblc3
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(340, 79);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(14, 16);
-            this.label11.TabIndex = 75;
-            this.label11.Text = "0";
+            this.lblc3.AutoSize = true;
+            this.lblc3.Location = new System.Drawing.Point(340, 79);
+            this.lblc3.Name = "lblc3";
+            this.lblc3.Size = new System.Drawing.Size(14, 16);
+            this.lblc3.TabIndex = 75;
+            this.lblc3.Text = "0";
             // 
-            // label10
+            // lblc2
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(340, 47);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(14, 16);
-            this.label10.TabIndex = 74;
-            this.label10.Text = "0";
+            this.lblc2.AutoSize = true;
+            this.lblc2.Location = new System.Drawing.Point(340, 47);
+            this.lblc2.Name = "lblc2";
+            this.lblc2.Size = new System.Drawing.Size(14, 16);
+            this.lblc2.TabIndex = 74;
+            this.lblc2.Text = "0";
             // 
-            // lbl1
+            // lblc1
             // 
-            this.lbl1.AutoSize = true;
-            this.lbl1.Location = new System.Drawing.Point(340, 11);
-            this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(14, 16);
-            this.lbl1.TabIndex = 73;
-            this.lbl1.Text = "0";
+            this.lblc1.AutoSize = true;
+            this.lblc1.Location = new System.Drawing.Point(340, 11);
+            this.lblc1.Name = "lblc1";
+            this.lblc1.Size = new System.Drawing.Size(14, 16);
+            this.lblc1.TabIndex = 73;
+            this.lblc1.Text = "0";
             // 
-            // pictureBox19
+            // calientec
             // 
-            this.pictureBox19.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
-            this.pictureBox19.Location = new System.Drawing.Point(281, 3);
-            this.pictureBox19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox19.TabIndex = 72;
-            this.pictureBox19.TabStop = false;
+            this.calientec.Image = global::Honey_Cloud_Coffee.Properties.Resources.Captura_de_pantalla_2026_05_23_1553021;
+            this.calientec.Location = new System.Drawing.Point(281, 3);
+            this.calientec.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.calientec.Name = "calientec";
+            this.calientec.Size = new System.Drawing.Size(38, 30);
+            this.calientec.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.calientec.TabIndex = 72;
+            this.calientec.TabStop = false;
+            this.calientec.Click += new System.EventHandler(this.calientec_Click);
             // 
-            // pictureBox10
+            // lechealmm
             // 
-            this.pictureBox10.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox10.Location = new System.Drawing.Point(372, 282);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 71;
-            this.pictureBox10.TabStop = false;
+            this.lechealmm.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.lechealmm.Location = new System.Drawing.Point(372, 282);
+            this.lechealmm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lechealmm.Name = "lechealmm";
+            this.lechealmm.Size = new System.Drawing.Size(38, 30);
+            this.lechealmm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.lechealmm.TabIndex = 71;
+            this.lechealmm.TabStop = false;
+            this.lechealmm.Click += new System.EventHandler(this.lechealmm_Click);
             // 
-            // pictureBox9
+            // lechedesm
             // 
-            this.pictureBox9.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox9.Location = new System.Drawing.Point(372, 247);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 70;
-            this.pictureBox9.TabStop = false;
+            this.lechedesm.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.lechedesm.Location = new System.Drawing.Point(372, 247);
+            this.lechedesm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lechedesm.Name = "lechedesm";
+            this.lechedesm.Size = new System.Drawing.Size(38, 30);
+            this.lechedesm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.lechedesm.TabIndex = 70;
+            this.lechedesm.TabStop = false;
+            this.lechedesm.Click += new System.EventHandler(this.lechedesm_Click);
             // 
-            // pictureBox8
+            // lecheenm
             // 
-            this.pictureBox8.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox8.Location = new System.Drawing.Point(372, 212);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 69;
-            this.pictureBox8.TabStop = false;
+            this.lecheenm.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.lecheenm.Location = new System.Drawing.Point(372, 212);
+            this.lecheenm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lecheenm.Name = "lecheenm";
+            this.lecheenm.Size = new System.Drawing.Size(38, 30);
+            this.lecheenm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.lecheenm.TabIndex = 69;
+            this.lecheenm.TabStop = false;
+            this.lecheenm.Click += new System.EventHandler(this.lecheenm_Click);
             // 
-            // pictureBox7
+            // canelam
             // 
-            this.pictureBox7.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox7.Location = new System.Drawing.Point(372, 177);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 68;
-            this.pictureBox7.TabStop = false;
+            this.canelam.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.canelam.Location = new System.Drawing.Point(372, 177);
+            this.canelam.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.canelam.Name = "canelam";
+            this.canelam.Size = new System.Drawing.Size(38, 30);
+            this.canelam.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.canelam.TabIndex = 68;
+            this.canelam.TabStop = false;
+            this.canelam.Click += new System.EventHandler(this.canelam_Click);
             // 
-            // pictureBox6
+            // splendam
             // 
-            this.pictureBox6.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox6.Location = new System.Drawing.Point(372, 142);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 67;
-            this.pictureBox6.TabStop = false;
+            this.splendam.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.splendam.Location = new System.Drawing.Point(372, 142);
+            this.splendam.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.splendam.Name = "splendam";
+            this.splendam.Size = new System.Drawing.Size(38, 30);
+            this.splendam.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.splendam.TabIndex = 67;
+            this.splendam.TabStop = false;
+            this.splendam.Click += new System.EventHandler(this.splendam_Click);
             // 
-            // pictureBox5
+            // azucarmscm
             // 
-            this.pictureBox5.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox5.Location = new System.Drawing.Point(372, 107);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 66;
-            this.pictureBox5.TabStop = false;
+            this.azucarmscm.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.azucarmscm.Location = new System.Drawing.Point(372, 107);
+            this.azucarmscm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.azucarmscm.Name = "azucarmscm";
+            this.azucarmscm.Size = new System.Drawing.Size(38, 30);
+            this.azucarmscm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.azucarmscm.TabIndex = 66;
+            this.azucarmscm.TabStop = false;
+            this.azucarmscm.Click += new System.EventHandler(this.azucarmscm_Click);
             // 
-            // pictureBox4
+            // azucarmc
             // 
-            this.pictureBox4.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox4.Location = new System.Drawing.Point(372, 73);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 65;
-            this.pictureBox4.TabStop = false;
+            this.azucarmc.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.azucarmc.Location = new System.Drawing.Point(372, 73);
+            this.azucarmc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.azucarmc.Name = "azucarmc";
+            this.azucarmc.Size = new System.Drawing.Size(38, 30);
+            this.azucarmc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.azucarmc.TabIndex = 65;
+            this.azucarmc.TabStop = false;
+            this.azucarmc.Click += new System.EventHandler(this.azucarmc_Click);
             // 
-            // pictureBox3
+            // friocm
             // 
-            this.pictureBox3.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox3.Location = new System.Drawing.Point(372, 39);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 64;
-            this.pictureBox3.TabStop = false;
+            this.friocm.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.friocm.Location = new System.Drawing.Point(372, 39);
+            this.friocm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.friocm.Name = "friocm";
+            this.friocm.Size = new System.Drawing.Size(38, 30);
+            this.friocm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.friocm.TabIndex = 64;
+            this.friocm.TabStop = false;
+            this.friocm.Click += new System.EventHandler(this.friocm_Click);
             // 
-            // pictureBox2
+            // calientecm
             // 
-            this.pictureBox2.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
-            this.pictureBox2.Location = new System.Drawing.Point(372, 3);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 63;
-            this.pictureBox2.TabStop = false;
+            this.calientecm.Image = global::Honey_Cloud_Coffee.Properties.Resources.Screenshot_2026_05_21_004113;
+            this.calientecm.Location = new System.Drawing.Point(372, 3);
+            this.calientecm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.calientecm.Name = "calientecm";
+            this.calientecm.Size = new System.Drawing.Size(38, 30);
+            this.calientecm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.calientecm.TabIndex = 63;
+            this.calientecm.TabStop = false;
+            this.calientecm.Click += new System.EventHandler(this.calientecm_Click);
             // 
             // label9
             // 
@@ -582,7 +601,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1033, 562);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnPedidoc);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
@@ -594,24 +613,24 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lechealm)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lechedes)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lecheen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.canelac)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splendac)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.azucarmac)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.azucarc)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.frioc)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.calientec)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lechealmm)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lechedesm)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lecheenm)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.canelam)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splendam)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.azucarmscm)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.azucarmc)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.friocm)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.calientecm)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -621,35 +640,35 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnVolver;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnPedidoc;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.PictureBox pictureBox17;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label lbl1;
-        private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox lechealm;
+        private System.Windows.Forms.PictureBox lechedes;
+        private System.Windows.Forms.PictureBox lecheen;
+        private System.Windows.Forms.PictureBox canelac;
+        private System.Windows.Forms.PictureBox splendac;
+        private System.Windows.Forms.PictureBox azucarmac;
+        private System.Windows.Forms.PictureBox azucarc;
+        private System.Windows.Forms.PictureBox frioc;
+        private System.Windows.Forms.Label lblc9;
+        private System.Windows.Forms.Label lblc8;
+        private System.Windows.Forms.Label lblc7;
+        private System.Windows.Forms.Label lblc6;
+        private System.Windows.Forms.Label lblc5;
+        private System.Windows.Forms.Label lblc4;
+        private System.Windows.Forms.Label lblc3;
+        private System.Windows.Forms.Label lblc2;
+        private System.Windows.Forms.Label lblc1;
+        private System.Windows.Forms.PictureBox calientec;
+        private System.Windows.Forms.PictureBox lechealmm;
+        private System.Windows.Forms.PictureBox lechedesm;
+        private System.Windows.Forms.PictureBox lecheenm;
+        private System.Windows.Forms.PictureBox canelam;
+        private System.Windows.Forms.PictureBox splendam;
+        private System.Windows.Forms.PictureBox azucarmscm;
+        private System.Windows.Forms.PictureBox azucarmc;
+        private System.Windows.Forms.PictureBox friocm;
+        private System.Windows.Forms.PictureBox calientecm;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;

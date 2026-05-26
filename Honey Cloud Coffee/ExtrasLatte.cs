@@ -139,5 +139,10 @@ namespace Honey_Cloud_Coffee
         {
 
         }
+
+        private void Calientel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
