@@ -70,7 +70,9 @@
             this.btnPedidoMoka = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+
             this.EstadoPedido = new System.Windows.Forms.Button();
+
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.almendmok)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.deslmok)).BeginInit();
@@ -596,6 +598,7 @@
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
+
             // EstadoPedido
             // 
             this.EstadoPedido.BackColor = System.Drawing.Color.Linen;
@@ -610,6 +613,8 @@
             this.EstadoPedido.UseVisualStyleBackColor = false;
             this.EstadoPedido.Click += new System.EventHandler(this.EstadoPedido_Click);
             // 
+
+
             // MokaExtras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);

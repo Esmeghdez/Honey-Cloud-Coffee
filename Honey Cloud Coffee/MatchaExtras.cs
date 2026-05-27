@@ -14,10 +14,11 @@ namespace Honey_Cloud_Coffee
     {
         private Bebida miBebidaSeleccionada;
         private Pedido pedido;
+
         public MatchaExtras()
         {
             InitializeComponent();
-            this.miBebidaSeleccionada = new Capuccino();
+            this.miBebidaSeleccionada = new Matcha();
             this.pedido = new Pedido(miBebidaSeleccionada);
             EstadoPedido.Text = pedido.ObtenerEstado();
             ActualizarPedido();
@@ -26,26 +27,21 @@ namespace Honey_Cloud_Coffee
         private void btnVolver_Click(object sender, EventArgs e)
         {
             SinCafe sincafe = new SinCafe();
-
             sincafe.Show();
-
             this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             FormMenu menu = new FormMenu();
-
             menu.Show();
-
             this.Hide();
         }
 
         //-------------------------------------------------------------
-        //Caliente
+        // Caliente -
         private void calientemat_Click(object sender, EventArgs e)
         {
-
             int cantidadCaliente = int.Parse(lblm1.Text);
             if (cantidadCaliente > 0)
             {
@@ -57,19 +53,16 @@ namespace Honey_Cloud_Coffee
 
         private void matcaliente_Click(object sender, EventArgs e)
         {
-
             int cantidadCaliente = int.Parse(lblm1.Text);
-
             cantidadCaliente++;
             lblm1.Text = cantidadCaliente.ToString();
             ActualizarPedido();
         }
 
         //-------------------------------------------------------------
-        //Frio
+        // Frio -
         private void friomat_Click(object sender, EventArgs e)
         {
-
             int cantidadFrio = int.Parse(lblm2.Text);
             if (cantidadFrio > 0)
             {
@@ -81,7 +74,6 @@ namespace Honey_Cloud_Coffee
 
         private void matfrio_Click(object sender, EventArgs e)
         {
-
             int cantidadFrio = int.Parse(lblm2.Text);
             cantidadFrio++;
             lblm2.Text = cantidadFrio.ToString();
@@ -89,13 +81,11 @@ namespace Honey_Cloud_Coffee
         }
 
         //-------------------------------------------------------------
-        //Azucar -
+        // Azucar -
         private void azucarmat_Click(object sender, EventArgs e)
         {
-
             int cantidadAzucar = int.Parse(lblm3.Text);
             if (cantidadAzucar > 0)
-
             {
                 cantidadAzucar--;
                 lblm3.Text = cantidadAzucar.ToString();
@@ -105,21 +95,17 @@ namespace Honey_Cloud_Coffee
 
         private void matazucar_Click(object sender, EventArgs e)
         {
- 
             int cantidadAzucar = int.Parse(lblm3.Text);
-
             cantidadAzucar++;
             lblm3.Text = cantidadAzucar.ToString();
             ActualizarPedido();
         }
 
         //-------------------------------------------------------------
-        //
+        // Azucar Mascabado -
         private void azucarmmat_Click(object sender, EventArgs e)
         {
-
             int cantidadAzucarM = int.Parse(lblm4.Text);
-
             if (cantidadAzucarM > 0)
             {
                 cantidadAzucarM--;
@@ -130,7 +116,6 @@ namespace Honey_Cloud_Coffee
 
         private void matazucarm_Click(object sender, EventArgs e)
         {
-
             int cantidadAzucarM = int.Parse(lblm4.Text);
             cantidadAzucarM++;
             lblm4.Text = cantidadAzucarM.ToString();
@@ -138,12 +123,10 @@ namespace Honey_Cloud_Coffee
         }
 
         //-------------------------------------------------------------
-        //
+        // Splenda -
         private void splendamat_Click(object sender, EventArgs e)
         {
-
             int cantidadSplenda = int.Parse(lblm5.Text);
-
             if (cantidadSplenda > 0)
             {
                 cantidadSplenda--;
@@ -157,69 +140,56 @@ namespace Honey_Cloud_Coffee
             int cantidadSplenda = int.Parse(lblm5.Text);
             cantidadSplenda++;
             lblm5.Text = cantidadSplenda.ToString();
-
             ActualizarPedido();
         }
 
         //-------------------------------------------------------------
-        //
+        // Canela -
         private void canelamat_Click(object sender, EventArgs e)
         {
-
             int cantidadCanela = int.Parse(lblm6.Text);
-
             if (cantidadCanela > 0)
             {
                 cantidadCanela--;
                 lblm6.Text = cantidadCanela.ToString();
                 ActualizarPedido();
-
             }
         }
 
         private void matcanela_Click(object sender, EventArgs e)
         {
- 
             int cantidadCanela = int.Parse(lblm6.Text);
             cantidadCanela++;
             lblm6.Text = cantidadCanela.ToString();
-
             ActualizarPedido();
         }
+
         //-------------------------------------------------------------
-        //Leche Entera -
+        // Leche Entera -
         private void enteramat_Click(object sender, EventArgs e)
         {
-
             int cantidadLechee = int.Parse(lblm7.Text);
-
             if (cantidadLechee > 0)
             {
                 cantidadLechee--;
                 lblm7.Text = cantidadLechee.ToString();
-
                 ActualizarPedido();
             }
         }
 
         private void matentera_Click(object sender, EventArgs e)
         {
-  
             int cantidadLechee = int.Parse(lblm7.Text);
-
             cantidadLechee++;
             lblm7.Text = cantidadLechee.ToString();
-
             ActualizarPedido();
         }
 
         //-------------------------------------------------------------
-        //
+        // Leche Deslactosada -
         private void deslmat_Click(object sender, EventArgs e)
         {
- 
             int cantidadLeched = int.Parse(lblm8.Text);
-
             if (cantidadLeched > 0)
             {
                 cantidadLeched--;
@@ -230,121 +200,83 @@ namespace Honey_Cloud_Coffee
 
         private void matdesl_Click(object sender, EventArgs e)
         {
-
             int cantidadLeched = int.Parse(lblm8.Text);
-
             cantidadLeched++;
             lblm8.Text = cantidadLeched.ToString();
-
             ActualizarPedido();
         }
+
         //-------------------------------------------------------------
-        //
+        // Leche de Almendras -
         private void almenmat_Click(object sender, EventArgs e)
         {
-
             int cantidadLechea = int.Parse(lblm9.Text);
-
             if (cantidadLechea > 0)
             {
                 cantidadLechea--;
                 lblm9.Text = cantidadLechea.ToString();
-
                 ActualizarPedido();
             }
         }
 
         private void matalmend_Click(object sender, EventArgs e)
         {
-
             int cantidadLechea = int.Parse(lblm9.Text);
-
             cantidadLechea++;
             lblm9.Text = cantidadLechea.ToString();
             ActualizarPedido();
         }
 
         //-------------------------------------------------------------
-        //
         private void ActualizarPedido()
         {
             if (miBebidaSeleccionada == null) return;
 
-            // Iniciamos con la bebida base
             Bebida pedidoFinal = miBebidaSeleccionada;
 
-            // caliente
             int cantCaliente = int.Parse(lblm1.Text);
             for (int i = 0; i < cantCaliente; i++)
-            {
                 pedidoFinal = new Caliente(pedidoFinal);
-            }
 
-            // frío
             int cantFrio = int.Parse(lblm2.Text);
             for (int i = 0; i < cantFrio; i++)
-            {
                 pedidoFinal = new Fria(pedidoFinal);
-            }
 
-            // azúcar
             int cantAzucar = int.Parse(lblm3.Text);
             for (int i = 0; i < cantAzucar; i++)
-            {
                 pedidoFinal = new Azucar(pedidoFinal);
-            }
 
-            // azucar mascabado
             int cantAzucarM = int.Parse(lblm4.Text);
             for (int i = 0; i < cantAzucarM; i++)
-            {
                 pedidoFinal = new AzucarMascabado(pedidoFinal);
-            }
 
-            // splenda
             int cantSplenda = int.Parse(lblm5.Text);
             for (int i = 0; i < cantSplenda; i++)
-            {
                 pedidoFinal = new Splenda(pedidoFinal);
-            }
 
-            // canela
             int cantCanela = int.Parse(lblm6.Text);
             for (int i = 0; i < cantCanela; i++)
-            {
                 pedidoFinal = new Canela(pedidoFinal);
-            }
 
-            //Leche Entera
             int cantLechee = int.Parse(lblm7.Text);
             for (int i = 0; i < cantLechee; i++)
-            {
                 pedidoFinal = new LecheEntera(pedidoFinal);
-            }
 
-            // Leche Deslactosada
             int cantLeched = int.Parse(lblm8.Text);
             for (int i = 0; i < cantLeched; i++)
-            {
                 pedidoFinal = new LecheDeslactosada(pedidoFinal);
-            }
 
-            // Leche de Almendras
             int cantLechea = int.Parse(lblm9.Text);
             for (int i = 0; i < cantLechea; i++)
-            {
                 pedidoFinal = new LecheAlmendras(pedidoFinal);
-            }
         }
 
+        //-------------------------------------------------------------
+        // Pedido terminado
         private void btnPedidoMatcha_Click(object sender, EventArgs e)
         {
             if (miBebidaSeleccionada == null) return;
 
-
-
-            // Leer las cantitades directamente de los label
-
             int cantCaliente = int.Parse(lblm1.Text);
             int cantFrio = int.Parse(lblm2.Text);
             int cantAzucar = int.Parse(lblm3.Text);
@@ -355,128 +287,35 @@ namespace Honey_Cloud_Coffee
             int cantLeched = int.Parse(lblm8.Text);
             int cantLechea = int.Parse(lblm9.Text);
 
-
             Bebida pedidoFinal = miBebidaSeleccionada;
 
-            //-----------------------------------------------------------------------------------
-
-            for (int i = 0; i < cantCaliente; i++)
-            {
-                pedidoFinal = new Caliente(pedidoFinal);
-            }
-
-            for (int i = 0; i < cantFrio; i++)
-            {
-                pedidoFinal = new Fria(pedidoFinal);
-            }
-
-            for (int i = 0; i < cantAzucar; i++)
-            {
-                pedidoFinal = new Azucar(pedidoFinal);
-            }
-
-            for (int i = 0; i < cantAzucarM; i++)
-            {
-                pedidoFinal = new AzucarMascabado(pedidoFinal);
-            }
-
-            for (int i = 0; i < cantSplenda; i++)
-
-            {
-                pedidoFinal = new Splenda(pedidoFinal);
-            }
-
-            for (int i = 0; i < cantCanela; i++)
-            {
-                pedidoFinal = new Canela(pedidoFinal);
-            }
-
-            for (int i = 0; i < cantLechee; i++)
-            {
-                pedidoFinal = new LecheEntera(pedidoFinal);
-            }
-
-            for (int i = 0; i < cantLeched; i++)
-            {
-                pedidoFinal = new LecheDeslactosada(pedidoFinal);
-            }
-
-            for (int i = 0; i < cantLechea; i++)
-            {
-                pedidoFinal = new LecheAlmendras(pedidoFinal);
-            }
+            for (int i = 0; i < cantCaliente; i++) pedidoFinal = new Caliente(pedidoFinal);
+            for (int i = 0; i < cantFrio; i++) pedidoFinal = new Fria(pedidoFinal);
+            for (int i = 0; i < cantAzucar; i++) pedidoFinal = new Azucar(pedidoFinal);
+            for (int i = 0; i < cantAzucarM; i++) pedidoFinal = new AzucarMascabado(pedidoFinal);
+            for (int i = 0; i < cantSplenda; i++) pedidoFinal = new Splenda(pedidoFinal);
+            for (int i = 0; i < cantCanela; i++) pedidoFinal = new Canela(pedidoFinal);
+            for (int i = 0; i < cantLechee; i++) pedidoFinal = new LecheEntera(pedidoFinal);
+            for (int i = 0; i < cantLeched; i++) pedidoFinal = new LecheDeslactosada(pedidoFinal);
+            for (int i = 0; i < cantLechea; i++) pedidoFinal = new LecheAlmendras(pedidoFinal);
 
             double precioFinal = pedidoFinal.Costo();
-
-            //  ticket
             string nombreBebidaBase = miBebidaSeleccionada.Descripcion();
             string especificacionesLimpias = "";
 
-            //-------------------------------------------------------------------------------
+            if (cantCaliente > 0) especificacionesLimpias += $"\n   , Caliente (x{cantCaliente})";
+            if (cantFrio > 0) especificacionesLimpias += $"\n   , Frío (x{cantFrio})";
+            if (cantAzucar > 0) especificacionesLimpias += $"\n   , Azucar (x{cantAzucar})";
+            if (cantAzucarM > 0) especificacionesLimpias += $"\n   , Azucar Mascabado (x{cantAzucarM})";
+            if (cantSplenda > 0) especificacionesLimpias += $"\n   , Splenda (x{cantSplenda})";
+            if (cantCanela > 0) especificacionesLimpias += $"\n   , Canela (x{cantCanela})";
+            if (cantLechee > 0) especificacionesLimpias += $"\n   , Leche Entera (x{cantLechee})";
+            if (cantLeched > 0) especificacionesLimpias += $"\n   , Leche deslactosada (x{cantLeched})";
+            if (cantLechea > 0) especificacionesLimpias += $"\n   , Leche de Almendras (x{cantLechea})";
 
-            // Si el usuario eligio, agregamos cuantos quiere 
-
-            if (cantCaliente > 0)
-            {
-                especificacionesLimpias += $"\n   , Caliente (x{cantCaliente})";
-            }
-            //Frio
-            if (cantFrio > 0)
-            {
-                especificacionesLimpias += $"\n   , Frío (x{cantFrio})";
-            }
-            //Azucar
-            if (cantAzucar > 0)
-            {
-                especificacionesLimpias += $"\n   , Azucar (x{cantAzucar})";
-            }
-            //Azucar Mascabado
-            if (cantAzucarM > 0)
-            {
-                especificacionesLimpias += $"\n   , Azucar Mascabado (x{cantAzucarM})";
-            }
-
-            //Splenda
-
-            if (cantSplenda > 0)
-            {
-                especificacionesLimpias += $"\n   , Splenda (x{cantSplenda})";
-            }
-
-            //Canela
-            if (cantCanela > 0)
-            {
-                especificacionesLimpias += $"\n   , Canela (x{cantCanela})";
-            }
-
-
-            //Leche Entera 
-            if (cantLechee > 0)
-            {
-                especificacionesLimpias += $"\n   , Leche Entera (x{cantLechee})";
-            }
-
-            //Leche Entera 
-
-            if (cantLeched > 0)
-            {
-                especificacionesLimpias += $"\n  , Leche deslactosada (x{cantLeched})";
-            }
-
-            //Leche Entera 
-
-            if (cantLechea > 0)
-            {
-                especificacionesLimpias += $"\n   , Leche de Almendras (x{cantLechea})";
-            }
+            // ✅ Avanzar estado: Editando → Confirmado
             pedido.Avanzar();
             EstadoPedido.Text = pedido.ObtenerEstado();
-
-            // -------------------------------------------------------------------------
-
-            // Mostrar mensaje final
-
-            // -------------------------------------------------------------------------
 
             MessageBox.Show($"¡Pedido Completado Exitosamente!\n\n" +
                             $"Bebida: {nombreBebidaBase}\n" +
@@ -486,18 +325,18 @@ namespace Honey_Cloud_Coffee
                             MessageBoxButtons.OK,
                             MessageBoxIcon.Information);
 
-            // Regresamos el texto labels a "0"
+            // Reset labels
+            lblm1.Text = "0";
+            lblm2.Text = "0";
+            lblm3.Text = "0";
+            lblm4.Text = "0";
+            lblm5.Text = "0";
+            lblm6.Text = "0";
+            lblm7.Text = "0";
+            lblm8.Text = "0";
+            lblm9.Text = "0";
 
-            lblm1.Text = "0";  //caliente   
-            lblm2.Text = "0";  //frio
-            lblm3.Text = "0";  //azucar
-            lblm4.Text = "0"; //azucarm
-            lblm5.Text = "0";  //splenda
-            lblm6.Text = "0"; //canela
-            lblm7.Text = "0";  //Leche Entera
-            lblm8.Text = "0";  //Leche Deslactosada
-            lblm9.Text = "0";   //Leche de Almendras
-
+            // ✅ Nuevo pedido en estado inicial
             this.pedido = new Pedido(miBebidaSeleccionada);
             EstadoPedido.Text = pedido.ObtenerEstado();
 
