@@ -197,7 +197,7 @@ namespace Honey_Cloud_Coffee
         {
             switch (tipo)
             {
-                case "Frutos Rojos":
+                case "FrutosRojos":
                     return new FrutosRojos();
 
                 case "Manzanilla":

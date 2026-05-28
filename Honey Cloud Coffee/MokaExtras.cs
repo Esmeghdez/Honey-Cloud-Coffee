@@ -5,13 +5,18 @@ namespace Honey_Cloud_Coffee
 {
     public partial class MokaExtras : Form
     {
+        private Cafeteria fabricaMoka;
         private Bebida miBebidaSeleccionada;
         private Pedido pedido;
 
         public MokaExtras()
         {
             InitializeComponent();
-            this.miBebidaSeleccionada = new Moka();
+
+            this.fabricaMoka = new BebidasConCafe();
+
+            this.miBebidaSeleccionada = fabricaMoka.CrearBebida("Moka");
+     
             this.pedido = new Pedido(miBebidaSeleccionada);
             EstadoPedido.Text = pedido.ObtenerEstado();
             ActualizarPedido();

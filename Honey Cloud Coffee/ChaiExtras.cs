@@ -12,12 +12,16 @@ namespace Honey_Cloud_Coffee
 {
     public partial class ChaiExtras : Form
     {
+        private Cafeteria fabricaChai;
         private Bebida miBebidaSeleccionada;
         private Pedido pedido;
         public ChaiExtras()
         {
             InitializeComponent();
-            this.miBebidaSeleccionada = new Capuccino();
+            this.fabricaChai = new BebidasSinCafe();
+
+            this.miBebidaSeleccionada = fabricaChai.CrearBebida("Chai");
+            
             this.pedido = new Pedido(miBebidaSeleccionada);
             EstadoPedido.Text = pedido.ObtenerEstado();
             ActualizarPedido();

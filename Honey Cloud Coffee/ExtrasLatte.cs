@@ -5,13 +5,17 @@ namespace Honey_Cloud_Coffee
 {
     public partial class ExtrasLatte : Form
     {
+        private Cafeteria fabricaLatte;
         private Bebida miBebidaSeleccionada;
         private Pedido pedido;
 
         public ExtrasLatte()
         {
             InitializeComponent();
-            this.miBebidaSeleccionada = new Latte();
+            this.fabricaLatte = new BebidasConCafe();
+
+            this.miBebidaSeleccionada = fabricaLatte.CrearBebida("Latte");
+        
             this.pedido = new Pedido(miBebidaSeleccionada);
             EstadoPedido.Text = pedido.ObtenerEstado();
             ActualizarPedido();

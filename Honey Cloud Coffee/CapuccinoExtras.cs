@@ -14,11 +14,15 @@ namespace Honey_Cloud_Coffee
     {
         private Bebida miBebidaSeleccionada;
         private Pedido pedido;
+        private Cafeteria fabricaCafe;
 
         public CapuccinoExtras()
         {
             InitializeComponent();
-            this.miBebidaSeleccionada = new Capuccino();
+            this.fabricaCafe = new BebidasConCafe();
+
+            this.miBebidaSeleccionada = fabricaCafe.CrearBebida("Capuccino");
+
             this.pedido = new Pedido(miBebidaSeleccionada);
             EstadoPedido.Text = pedido.ObtenerEstado();
             ActualizarPedido();
